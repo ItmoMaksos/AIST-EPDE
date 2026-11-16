@@ -1,0 +1,8 @@
+.venv/
+vendor/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+cases/robots/results/**/*.log
+
+.local/
