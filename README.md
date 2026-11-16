@@ -17,9 +17,9 @@
 
 ## Как создать репозиторий и сдать работу
 
-1. Откройте [шаблон AIST-EPDE](https://github.com/Maksos22/AIST-EPDE) и нажмите **Use this template → Create a new repository**. В поле **Owner** выберите свой аккаунт, задайте имя репозитория, выберите **Private** и нажмите **Create repository from template**.
+1. Откройте [шаблон AIST-EPDE](https://github.com/ItmoMaksos/AIST-EPDE) и нажмите **Use this template → Create a new repository**. В поле **Owner** выберите свой аккаунт, задайте имя репозитория, выберите **Private** и нажмите **Create repository from template**.
 2. В своём репозитории добавьте работу в `projects/<фамилия>_<данные>/`, например в `projects/ivanov_utd19/`. Если загружаете через сайт, на компьютере соберите эту структуру, затем в корне своего репозитория откройте **Add file → Upload files**, перетащите папку `projects` и нажмите **Commit changes**. Состав файлов — [в задании](ASSIGNMENT.md#что-сдавать).
-3. Перед сдачей проверьте, что у вашего репозитория есть метка **Private**. Откройте **Settings → Collaborators → Add people** и пригласите только **`Maksos22`**. Ссылку на свой репозиторий отправьте проверяющему в личные сообщения.
+3. Перед сдачей проверьте, что у вашего репозитория есть метка **Private**. Откройте **Settings → Collaborators → Add people** и пригласите только **`ItmoMaksos`**. Ссылку на свой репозиторий отправьте проверяющему в личные сообщения.
 
 ## Сроки и правила
 
