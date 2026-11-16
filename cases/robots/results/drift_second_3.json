@@ -1,0 +1,57 @@
+{
+  "config_name": "drift_second",
+  "seed": 3,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ],
+    "deriv": 2,
+    "chunk": 2.6
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "5.894988760059195 * cos_phi{power: 1.0} + 0.6908430860237735 * sin_phi{power: 1.0} + 0.3880270995307474 = d^2u/dx0^2{power: 1.0}",
+      "objectives": [
+        0.8232693771618695,
+        64.41116139753896
+      ]
+    },
+    {
+      "equation": "5.817078924535326 * cos_phi{power: 1.0} = d^2u/dx0^2{power: 1.0}",
+      "objectives": [
+        0.8298057320313103,
+        7.840295020506901
+      ]
+    },
+    {
+      "equation": "1.5969739018184674 * push_x{power: 1.0} + 5.586262165751403 * cos_phi{power: 1.0} + -0.04513871483138017 * du/dx0{power: 1.0} = d^2u/dx0^2{power: 1.0}",
+      "objectives": [
+        0.7999680323816653,
+        294.0691217734775
+      ]
+    },
+    {
+      "equation": "-0.15509369719628238 * u{power: 1.0} + 0.19392119324460771 * du/dx0{power: 1.0} + 6.3214404394787715 * cos_phi{power: 1.0} = d^2u/dx0^2{power: 1.0}",
+      "objectives": [
+        0.826413643633307,
+        54.95677981140041
+      ]
+    },
+    {
+      "equation": "-0.14967265131405258 * u{power: 1.0} + 5.822849692123113 * cos_phi{power: 1.0} = d^2u/dx0^2{power: 1.0}",
+      "objectives": [
+        0.8185759838858249,
+        180.75026083263865
+      ]
+    }
+  ]
+}

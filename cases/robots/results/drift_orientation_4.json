@@ -1,0 +1,32 @@
+{
+  "config_name": "drift_orientation",
+  "seed": 4,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi"
+    ]
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "1.2357389934507683 * sin_phi{power: 1.0} + -0.08186594621580731 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9326363817117438,
+        29.91261200098509
+      ]
+    },
+    {
+      "equation": "1.2710065623078204 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9378441565130359,
+        1.6338365154219225
+      ]
+    }
+  ]
+}

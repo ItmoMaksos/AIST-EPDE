@@ -1,0 +1,70 @@
+{
+  "config_name": "drift_products",
+  "seed": 3,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ],
+    "factors": 2
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "1.6165678401754102 * sin_phi{power: 1.0} + 0.18225923599199517 * sin_phi{power: 1.0} * u{power: 1.0} + 0.5594412011362392 * push_x{power: 1.0} + -0.14190358927275448 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8576524285044361,
+        1989.5067428031978
+      ]
+    },
+    {
+      "equation": "1.2710065623078204 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9378441565130359,
+        1.6338365154219225
+      ]
+    },
+    {
+      "equation": "1.2357389934507683 * sin_phi{power: 1.0} + -0.08186594621580731 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9326363817117438,
+        29.91261200098509
+      ]
+    },
+    {
+      "equation": "-0.29526773746496054 * u{power: 1.0} * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9797128014408512,
+        1.5503683094473757
+      ]
+    },
+    {
+      "equation": "1.1219852350615858 * sin_phi{power: 1.0} + 0.5994957098933804 * push_x{power: 1.0} + 0.040013776577003744 * u{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8812707524979577,
+        522.7687093802525
+      ]
+    },
+    {
+      "equation": "-0.2839989265662466 * cos_phi{power: 1.0} + -0.25883497901692337 * sin_phi{power: 1.0} * u{power: 1.0} + 0.7062352481522935 * push_x{power: 1.0} + -0.08246769447741022 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9270035906262473,
+        519.3699399716787
+      ]
+    },
+    {
+      "equation": "0.04549749801494845 * u{power: 1.0} + 1.3404008345615093 * sin_phi{power: 1.0} + 0.12750347894899652 * sin_phi{power: 1.0} * u{power: 1.0} + 0.6184288428128857 * push_x{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8475534830911291,
+        4755.031678774519
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "config_name": "field_Px",
+  "seed": 1,
+  "config": {
+    "kind": "field",
+    "var": "Px",
+    "population": 6,
+    "epochs": 3,
+    "terms": 4,
+    "lag": 1
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "-0.974559193470948 * Wy{power: 1.0} = dPx/dx0{power: 1.0}",
+      "objectives": [
+        0.263234527931149,
+        0.011114205721598243
+      ]
+    },
+    {
+      "equation": "-0.9631487649053624 * Wy{power: 1.0} + -0.2817644663952994 * Px_x{power: 1.0} = dPx/dx0{power: 1.0}",
+      "objectives": [
+        0.26248770192259957,
+        35.69024705475168
+      ]
+    }
+  ]
+}

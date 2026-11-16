@@ -1,0 +1,36 @@
+{
+  "config_name": "polar_Pr",
+  "seed": 3,
+  "config": {
+    "kind": "polar_field",
+    "var": "Pr",
+    "population": 6,
+    "epochs": 3,
+    "terms": 4,
+    "lag": 1
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "-0.9936956420670028 * Wt{power: 1.0} = dPr/dx0{power: 1.0}",
+      "objectives": [
+        0.2412917322093726,
+        0.11047492853821442
+      ]
+    },
+    {
+      "equation": "-0.937422972179122 * Wt{power: 1.0} + 0.06802059541594746 * Pr{power: 1.0} = dPr/dx0{power: 1.0}",
+      "objectives": [
+        0.23730779472480315,
+        5.794941455390939
+      ]
+    },
+    {
+      "equation": "-0.9377254933920178 * Wt{power: 1.0} + 0.05174210352351991 * Pr{power: 1.0} + -0.07930710853294375 * Pt{power: 1.0} = dPr/dx0{power: 1.0}",
+      "objectives": [
+        0.2353175136561223,
+        2415.5096189939004
+      ]
+    }
+  ]
+}

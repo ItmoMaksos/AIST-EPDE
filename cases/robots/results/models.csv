@@ -1,0 +1,977 @@
+config,seed,structure,discrepancy,instability
+heading,0,dc/dx0 = s | ds/dx0 = c,0.1478119851512837,0.009261004278485665
+heading,0,dc/dx0 = c + s + const | ds/dx0 = c,0.14774005197887508,6226.156915385972
+heading,0,dc/dx0 = c + s | ds/dx0 = c,0.1477486142799791,15.195516635419171
+heading,1,dc/dx0 = s | ds/dx0 = c,0.1478119851512837,0.009261004278485665
+heading,1,dc/dx0 = c + s | ds/dx0 = c,0.1477486142799791,15.195516635419091
+heading,1,dc/dx0 = c + s + const | ds/dx0 = c,0.14774005197887508,6226.156915385972
+heading,2,dc/dx0 = s | ds/dx0 = c,0.1478119851512837,0.009261004278485665
+heading,2,dc/dx0 = c + s + const | ds/dx0 = c,0.1477400519788751,6226.156915348726
+heading,2,dc/dx0 = c + s | ds/dx0 = c,0.1477486142799791,15.195516635419091
+heading,3,dc/dx0 = c + s | ds/dx0 = c,0.1477486142799791,15.195516635419171
+heading,3,dc/dx0 = s | ds/dx0 = c,0.1478119851512837,0.009261004278485665
+heading,3,dc/dx0 = c + s + const | ds/dx0 = c,0.14774005197887508,6226.156915385972
+heading,4,dc/dx0 = s | ds/dx0 = c,0.1478119851512837,0.009261004278485665
+heading,4,dc/dx0 = c + s + const | ds/dx0 = c,0.14774005197887508,6226.156915385972
+heading,4,dc/dx0 = c + s | ds/dx0 = c,0.1477486142799791,15.195516635419171
+heading_wide,0,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.1373842268200674,11.242964139932806
+heading_wide,0,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.1372602228219646,985.9089108494921
+heading_wide,0,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + const,0.13611608287103738,274.6875407796804
+heading_wide,0,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + const,0.13728889118537074,53.65698020398167
+heading_wide,0,dc/dx0 = s | ds/dx0 = c + c * dc/dx0 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + const,0.13715949810809322,3135.5006631752267
+heading_wide,0,dc/dx0 = d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + s^2,0.13562226144012896,434.66167520275746
+heading_wide,0,dc/dx0 = d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s + ds/dx0 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + s^2,0.13556400710997532,1182.2066314602062
+heading_wide,0,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + s^2 + const,0.13609950079928773,634.0072347366518
+heading_wide,0,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + s^2 + const,0.1372723091136211,412.97667416095305
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + s^2 + const,0.1217814759028428,3411.603514704647
+heading_wide,0,dc/dx0 = c^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + s^2 + const,0.12205335343863986,2758.3456551702516
+heading_wide,0,dc/dx0 = d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + s^2 + const,0.1355383914415317,782.0882728362631
+heading_wide,0,dc/dx0 = d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s + ds/dx0 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + s^2 + const,0.13548013711137807,1529.6332290937119
+heading_wide,0,dc/dx0 = d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + s^2 + const,0.1358091041154951,771.066599006177
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * ds/dx0 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + s^2 + const,0.13625355469850456,420.2690983929949
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * ds/dx0 + ds/dx0 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + s^2 + const,0.1361275708506698,530.3270766857104
+heading_wide,0,dc/dx0 = s | ds/dx0 = c,0.15294541471790357,0.004032823523398532
+heading_wide,0,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * d^2s/dx0^2 + d^2c/dx0^2 * s^2 + s^2,0.13723397246792035,1779.690791859067
+heading_wide,0,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * d^2s/dx0^2 + d^2c/dx0^2 * s^2 + s^2 + const,0.13715647130456787,12894.415043222534
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * dc/dx0 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + const,0.12158676866076998,3181.7867658875607
+heading_wide,0,dc/dx0 = c * d^2c/dx0^2 + d^2c/dx0^2 * ds/dx0 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + d^2c/dx0^2 * s^2 + const,0.13705122037434742,159.7311373951674
+heading_wide,0,dc/dx0 = c * d^2c/dx0^2 + d^2c/dx0^2 * ds/dx0 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + d^2c/dx0^2 * s^2 + const,0.13683801776294868,1492.1373649809395
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.13783421990837563,0.8016350616846281
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c,0.13779021129144997,11.227180217722948
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * d^2s/dx0^2 + d^2c/dx0^2 * s^2 + s^2,0.12212277765839241,1780.4883940972284
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * d^2s/dx0^2 + d^2c/dx0^2 * s^2 + s^2 + const,0.12204527649503996,12895.212645460695
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * d^2s/dx0^2 + d^2c/dx0^2 * s^2 + s^2,0.12207876904146674,1790.9139392532668
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * d^2s/dx0^2 + d^2c/dx0^2 * s^2 + s^2 + const,0.12200126787811427,12905.638190616733
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c,0.13737268527058033,46.29013553585735
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12227303201053949,12.040566378094034
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.12214902801243668,986.7065130876533
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12222902339361381,22.466111534132352
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.122105019395511,997.1320582436916
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * dc/dx0 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + const,0.12204830329856528,3136.298265413388
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c * dc/dx0 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0 + const,0.12200429468163962,3146.723810569426
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + d^2c/dx0^2 * s^2 + const,0.13728890386204814,8.527649498316125
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + d^2c/dx0^2 * s^2 + const,0.13724489524512246,18.953194654354444
+heading_wide,0,dc/dx0 = ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.13744507498503522,8.212444067183013
+heading_wide,0,dc/dx0 = ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.13727475652833773,17.463737618849667
+heading_wide,0,dc/dx0 = ds/dx0 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2,0.137311311407568,43.36355040124826
+heading_wide,0,dc/dx0 = ds/dx0 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.1371409929508705,52.61484395291492
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * d^2s/dx0^2 + d^2c/dx0^2 * s^2 + s^2,0.1216612430205971,1825.976894571401
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * d^2s/dx0^2 + d^2c/dx0^2 * s^2 + s^2 + const,0.12158374185724463,12940.701145934869
+heading_wide,0,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.13779205041942263,0.6970411687510045
+heading_wide,0,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.13762173196272517,9.94833472041766
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12181149737274417,57.529066852266766
+heading_wide,0,dc/dx0 = d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.12168749337464135,1032.195013561826
+heading_wide,1,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.13779205041942263,0.6970411687510045
+heading_wide,1,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.13762173196272517,9.94833472041766
+heading_wide,1,dc/dx0 = s | ds/dx0 = c,0.15294541471790357,0.004032823523398532
+heading_wide,1,dc/dx0 = s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.1370394522379706,20.24058435860601
+heading_wide,1,dc/dx0 = s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.13688150988019734,174.31372700956044
+heading_wide,1,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.137513684728251,13.08500523427824
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.1222490511783457,16.481940718696425
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.12207873272164822,25.73323427036308
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.12197068548717407,28.86990478422366
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.12149645299689366,36.02548390855143
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.13740241547682663,15.78893237346882
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.13783421990837563,0.8016350616846281
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c,0.13779021129144997,11.227180217722948
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.1213385106391204,190.09862655950585
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.12177031507066942,175.11132924772167
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.12172630645374374,185.53687440375998
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s + s^2 | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.12119350632365858,314.67112502008706
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.12268085560989472,1.494643406912234
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.12251053715319724,10.74593695857889
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2,0.12263684699296903,11.920188562950553
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.12246652853627157,21.17148211461721
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s + s^2 | ds/dx0 = c,0.1372574111613648,140.36143083405005
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s + s^2 | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.12135144868143183,160.59798236913267
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.1224024899187231,13.882607472439469
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.12235848130179741,24.30815262847779
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s + s^2 | ds/dx0 = c + c^2 * d^2c/dx0^2,0.12210404686288387,141.05443917927767
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s + s^2 | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.12193372840618641,150.3057327309443
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.12192825742844267,21.03818659676724
+heading_wide,1,dc/dx0 = d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.121884248811517,31.463731752805558
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s + s^2 | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.12182568117171225,153.4424032448049
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s + s^2 | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.11318428957619708,12970.816555280035
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s + s^2 + const | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.11353277008769554,916.6351726768612
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s + s^2 | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.11255211472814342,13132.045277055317
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s + s^2 + const | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.11290059523964185,1077.8638944521435
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s + s^2 | ds/dx0 = c + d^2c/dx0^2,0.1296287461954786,12959.980332055595
+heading_wide,1,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s + s^2 + const | ds/dx0 = c + d^2c/dx0^2,0.12997722670697703,905.7989494524209
+heading_wide,2,dc/dx0 = s | ds/dx0 = c,0.15294541471790357,0.004032823523398532
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12448386331523023,4.901269555979463
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + s | ds/dx0 = c,0.12895471948133497,3.8211816168827872
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12901861197377065,2.1873843634004007
+heading_wide,2,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.13783421990837563,0.8016350616846281
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12434886856083566,18.53342413163673
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + const,0.10006022597122377,311.7484709676204
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + const,0.09539048255828879,328.0945107358567
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12395427824837413,104.34872719153954
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + const,0.09499589224582725,413.90981379575953
+heading_wide,2,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + const,0.10887583390582878,310.3627216659046
+heading_wide,2,dc/dx0 = s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + const,0.12398702871535669,309.56511942774335
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + const,0.09552547731268336,314.4623561601994
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + const,0.09999633347878811,313.3822682211028
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + dc/dx0 * s,0.09510887066872456,275.9346492283645
+heading_wide,2,dc/dx0 = c + c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + const,0.09510834456792508,335.7376878637584
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + dc/dx0 * s,0.10017320439412108,173.77330640022535
+heading_wide,2,dc/dx0 = c * s^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.1243070916469701,20.097310641224258
+heading_wide,2,dc/dx0 = c + c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + dc/dx0 * s,0.09522132299082238,197.76252329636336
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + dc/dx0 * s,0.09550346098118609,190.11934616846168
+heading_wide,2,dc/dx0 = s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.12337682276558914,5815.600598657466
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + dc/dx0 * s,0.10010931190168541,175.40710365370774
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.09491527136291582,5820.497835389923
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.0943856862960597,5919.945293025483
+heading_wide,2,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10919241738648985,2.304489434701529
+heading_wide,2,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.1090956305591648,79.70673015153095
+heading_wide,2,dc/dx0 = c * s^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.09473849969465568,5835.693876475168
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10037680945188486,3.6902387364173013
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.1002800226245598,81.09247945324671
+heading_wide,2,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + dc/dx0 * s,0.10898881232872608,172.38755709850957
+heading_wide,2,dc/dx0 = s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + dc/dx0 * s,0.124100007138254,171.58995486034834
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09834364988621581,104.97601157463868
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10340798361161234,2.814668746499544
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09584206079334445,6.404123928996363
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.0957452739660194,83.80636464582578
+heading_wide,2,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.10826562795606123,5816.398200895628
+heading_wide,2,dc/dx0 = s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.1243036121960178,1.5068871965402992
+heading_wide,2,dc/dx0 = s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.12420682536869274,78.90912791336972
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + dc/dx0 * s,0.09563845573558066,176.4871915928044
+heading_wide,2,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.11222359154621733,1.4289194447837716
+heading_wide,2,dc/dx0 = s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12733478635574527,0.631317206622542
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.09945002002145623,5817.783950197344
+heading_wide,2,dc/dx0 = c + c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.09449813861815753,5841.773167093482
+heading_wide,2,dc/dx0 = c + c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12406673057047195,26.176601259538415
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.09478027660852124,5834.12998996558
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09873824019867736,19.160708514735873
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10031291695944919,5.324035989899688
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.10021613013212413,82.72627670672911
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09570706603894988,20.03627850465363
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.09561027921162482,97.43851922148305
+heading_wide,2,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + dc/dx0 * s,0.09511248991867113,227.81185977129806
+heading_wide,2,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + const,0.09499951149577382,365.7870243386931
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09887323495307193,5.528553939078606
+heading_wide,2,dc/dx0 = c * s^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + const,0.09534870564442323,329.65839724544423
+heading_wide,2,dc/dx0 = c + c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09542492804858616,27.679455632555317
+heading_wide,2,dc/dx0 = c + c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.0953281412212611,105.08169634938473
+heading_wide,2,dc/dx0 = c * s^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09566528912508432,21.60016501424116
+heading_wide,2,dc/dx0 = c * s^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.09556850229775926,99.00240573107058
+heading_wide,2,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09531609497643492,57.728792107490015
+heading_wide,2,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.09521930814910987,135.13103282431945
+heading_wide,2,dc/dx0 = s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12351718708838919,1723.9431927253377
+heading_wide,2,dc/dx0 = c * s^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 + dc/dx0 * s,0.09546168406732053,191.6832326780492
+heading_wide,2,dc/dx0 = c + c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09463850294095755,1750.1157611613528
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09531247572648834,105.85158156455644
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.09521568889916328,183.25382228138585
+heading_wide,2,dc/dx0 = c + c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09845610220831363,26.80388564263756
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09959038434425625,1726.1265442652148
+heading_wide,2,dc/dx0 = c + c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09463959339021732,613.6042444457655
+heading_wide,2,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09452966986880632,1780.1650976362876
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09492064093132127,1742.472584033451
+heading_wide,2,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10840599227886125,1724.740794963499
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09452714106811949,691.7763703777666
+heading_wide,2,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10840708272812102,588.2292782479117
+heading_wide,2,dc/dx0 = s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12351827753764895,587.4316760097505
+heading_wide,2,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.0983472691361624,56.85322211757226
+heading_wide,2,dc/dx0 = c * s^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09487995446671549,607.5249538274513
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.0947581579599584,505.8688200478667
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s + const | ds/dx0 = c + c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2,0.09516179650850345,203.59002509138952
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10334409111917667,4.448465999981931
+heading_wide,2,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.1239578974983207,56.22593773447311
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09452605061885973,1828.287887093354
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09505672613497562,592.3289127422065
+heading_wide,2,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09959147479351602,589.6150275496275
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2c/dx0^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09553567738263749,96.26246526804711
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09952649185182058,1727.760341518697
+heading_wide,2,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09453076031806608,643.6535809207002
+heading_wide,2,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2c/dx0^2 + c * d^2s/dx0^2 + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09505563568571584,1728.8404294577938
+heading_wide,3,dc/dx0 = s | ds/dx0 = c,0.15294541471790357,0.004032823523398532
+heading_wide,3,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.13783421990837563,0.8016350616846281
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12434886856083566,18.53342413163122
+heading_wide,3,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10919241738648985,2.304489434701529
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12901861197377062,2.187384363400384
+heading_wide,3,dc/dx0 = s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.1243036121960178,1.5068871965402992
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10037680945188485,3.6902387364172844
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09570706603894988,20.036278504648124
+heading_wide,3,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09584206079334444,6.404123928996819
+heading_wide,3,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12448386331523023,4.901269555979918
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09834364988621583,104.97601157470999
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09873824019867736,19.16070851473036
+heading_wide,3,dc/dx0 = s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12733478635574527,0.6313172066225374
+heading_wide,3,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.11222359154621735,1.428919444783767
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09531247572648834,105.85158156459484
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12395427824837413,104.34872719161085
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10006068199904428,35.07209643182331
+heading_wide,3,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09887323495307193,5.528553939079057
+heading_wide,3,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09552593334050388,37.785981624402844
+heading_wide,3,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09505933314856083,88.00207097068768
+heading_wide,3,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.1088762899336493,33.68634713010755
+heading_wide,3,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09840663476112887,55.7446432853639
+heading_wide,3,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09834726913616239,56.853222117519046
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09539093858610931,51.41813620005415
+heading_wide,3,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09537546060140138,56.62021327528164
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09499634827364778,137.2334392600009
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10340798361161233,2.814668746499523
+heading_wide,3,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12401726312328717,55.117358902264755
+heading_wide,3,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12395789749832069,56.2259377344199
+heading_wide,3,dc/dx0 = s | ds/dx0 = c + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12398748474317722,32.888744891946324
+heading_wide,3,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09421025942602726,94.25484246559058
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.0992709739014772,40.21628909457107
+heading_wide,3,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.0953160949764349,57.72879210743679
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.0942066401760807,142.37763192274863
+heading_wide,3,dc/dx0 = c^2 * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09473622524293679,42.9301742871506
+heading_wide,3,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09499996752359434,89.11064980284283
+heading_wide,3,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09460123048854224,56.562328862801905
+heading_wide,3,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10808658183608222,38.830539792855305
+heading_wide,3,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.09426962505099375,93.14626363343544
+heading_wide,3,dc/dx0 = s | ds/dx0 = c + c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12319777664561014,38.03293755469408
+heading_wide,3,dc/dx0 = c * s^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12925165513671122,1531.010993465287
+heading_wide,3,dc/dx0 = c * s^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c * d^2s/dx0^2 + c * s + c * s^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.12961341676972202,269.96740332289875
+heading_wide,4,dc/dx0 = s | ds/dx0 = c,0.15294541471790357,0.004032823523398532
+heading_wide,4,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.13783421990837563,0.8016350616846281
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12901861197377065,2.1873843634003367
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12395427824837413,104.34872719161946
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c,0.12434886856083566,18.533424131635545
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c,0.1242776212602077,32.098099229837
+heading_wide,4,dc/dx0 = c^2 * ds/dx0 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c,0.12421438615324223,33.06799231724265
+heading_wide,4,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12227303201053949,12.040566378094034
+heading_wide,4,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.1373842268200674,11.242964139932806
+heading_wide,4,dc/dx0 = c^2 * ds/dx0 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10865319825540609,44.30692363365206
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10826806859574042,1065.8709674044026
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.11345742407593448,13.426315679809743
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.11341966503473785,19.564084406946563
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.10867589219509566,1055.325044433221
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.11386524767528972,2.8803927086279426
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.11369492921859224,12.131686260294599
+heading_wide,4,dc/dx0 = c^2 * ds/dx0 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.10906102185476131,33.76100066247026
+heading_wide,4,dc/dx0 = c^2 * ds/dx0 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.10889070339806384,43.012294214136915
+heading_wide,4,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.12268085560989472,1.494643406912234
+heading_wide,4,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.12251053715319724,10.74593695857889
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.10880091394989319,105.04173553684706
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.10863059549319572,114.29302908851372
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10878768066299951,29.772355448045424
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10871643336237154,43.33703054624641
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s + const,0.11297893033595052,119.17585517554193
+heading_wide,4,dc/dx0 = c^2 * ds/dx0 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s + const,0.10850317830984164,66.13528136046627
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c,0.128980852932574,8.325153090537157
+heading_wide,4,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s + const,0.12179453827055553,117.79010587382622
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10839309035053796,115.58765850802887
+heading_wide,4,dc/dx0 = s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s + const,0.13690573308008347,116.99250363566499
+heading_wide,4,dc/dx0 = c^2 * ds/dx0 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s,0.10835875182592927,138.59365563317454
+heading_wide,4,dc/dx0 = c^2 * ds/dx0 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s + const,0.10817470451542213,150.05646312938424
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.10912425696172676,32.79110757506461
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.1089539385050293,42.042401126731264
+heading_wide,4,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.13779205041942263,0.6970411687510045
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s + const,0.10830918692301555,135.5218949437776
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s + const,0.10823793962238758,149.08657004197858
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.10919550426235473,19.226432476863625
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + const,0.10902518580565726,28.477726028530277
+heading_wide,4,dc/dx0 = c^2 * ds/dx0 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * d^2s/dx0^2 + d^2c/dx0^2 * s + d^2c/dx0^2 * s^2,0.10827130854989722,149.09331588897692
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s + const,0.10778957485575646,1171.6205069001348
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2,0.11382748863409309,9.018161435764762
+heading_wide,4,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10796972042204045,72.7921756836527
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s + const,0.107914596610554,221.33719800376105
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c,0.1238292564935766,1054.6320360879934
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10784107941729633,1071.198274037173
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.11303043489749039,18.75362231257992
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + dc/dx0 * s + const,0.1129411712947539,125.31362390267874
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10796610117209386,120.91496514079904
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.1083606914845554,35.099662080815605
+heading_wide,4,dc/dx0 = s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.13695723764162332,16.570270772702983
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10828944418392744,48.664337179016584
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.11299267585629374,24.89139103971674
+heading_wide,4,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10839670960048454,67.46486905088253
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10775061275076764,1437.0169827436816
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 + c^2 * d^2c/dx0^2,0.11372927628830314,9.81700931288854
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10819897751739874,414.4830458855255
+heading_wide,4,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12184604283209538,17.367873010864212
+heading_wide,4,dc/dx0 = d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.12175557616556669,383.1865817173731
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.11290220918976505,390.71009974622564
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * s^2,0.10839617704782685,1061.2781771783423
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * s^2,0.11354777348682427,14.971294180886254
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0,0.10776868779001747,1388.1249902740576
+heading_wide,4,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10787925375551174,438.6108843901616
+heading_wide,4,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.107958085353985,289.5421450970365
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.1129399682309617,384.57233101908884
+heading_wide,4,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * s^2,0.10852481805257097,62.87207882482221
+heading_wide,4,dc/dx0 = c^2 * ds/dx0 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10813574241043328,415.4529389729311
+heading_wide,4,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.1078164708706589,510.59292373487676
+heading_wide,4,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + const,0.10789530246913216,361.5241844417516
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0,0.10828829985727656,352.0263783177004
+heading_wide,4,dc/dx0 = c + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0,0.10789732879476159,389.71889192053754
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * ds/dx0 + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.10787563450556517,486.73367384730795
+heading_wide,4,dc/dx0 = c^2 * s + d^2s/dx0^2 * s^2 + s | ds/dx0 = c + c * d^2s/dx0^2 + c^2 + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2 + d^2s/dx0^2 * dc/dx0,0.11295804327021153,335.68033854946475
+heading_wide,4,dc/dx0 = c * d^2s/dx0^2 + c^2 * s + d^2s/dx0^2 + d^2s/dx0^2 * s^2 + ds/dx0 * s^2 + s | ds/dx0 = c + c^2 * d^2c/dx0^2 + d^2c/dx0^2 * s^2,0.1083339267156317,139.44690839559766
+heading_wide,4,dc/dx0 = s | ds/dx0 = c + c^2 * d^2c/dx0^2 + c^2 * s^2,0.13751233527215384,6.650173913872495
+heading_chunk52,0,dc/dx0 = c + s | ds/dx0 = c,0.1360580160428848,1.6952632886939263
+heading_chunk52,0,dc/dx0 = s | ds/dx0 = c,0.13638072798118742,0.0025850734817773483
+heading_chunk52,1,dc/dx0 = c + s | ds/dx0 = c,0.1360580160428848,1.6952632886939263
+heading_chunk52,1,dc/dx0 = s | ds/dx0 = c,0.13638072798118742,0.0025850734817773483
+heading_chunk52,2,dc/dx0 = c + s | ds/dx0 = c,0.1360580160428848,1.6952632886939258
+heading_chunk52,2,dc/dx0 = s | ds/dx0 = c,0.13638072798118742,0.0025850734817773483
+heading_chunk52,3,dc/dx0 = c + s | ds/dx0 = c,0.1360580160428848,1.6952632886939258
+heading_chunk52,3,dc/dx0 = s | ds/dx0 = c,0.13638072798118742,0.0025850734817773483
+heading_chunk52,4,dc/dx0 = s | ds/dx0 = c,0.13638072798118742,0.0025850734817773483
+heading_chunk52,4,dc/dx0 = c + s | ds/dx0 = c,0.1360580160428848,1.6952632886939263
+heading_chunk26,0,dc/dx0 = s | ds/dx0 = c,0.13077823601309835,0.004369140749035368
+heading_chunk26,0,dc/dx0 = c + s + const | ds/dx0 = c + s,0.1298984356570992,2751.7451747588666
+heading_chunk26,0,dc/dx0 = s + const | ds/dx0 = c + s,0.13030913653176152,2628.790041278287
+heading_chunk26,0,dc/dx0 = s | ds/dx0 = c + s,0.13060119858990724,2624.5728115812235
+heading_chunk26,0,dc/dx0 = c + s + const | ds/dx0 = c,0.13007547308029033,127.1767323183922
+heading_chunk26,0,dc/dx0 = s + const | ds/dx0 = c,0.13048617395495263,4.221598837812692
+heading_chunk26,1,dc/dx0 = s + const | ds/dx0 = c,0.13048617395495263,4.221598837812692
+heading_chunk26,1,dc/dx0 = s | ds/dx0 = c,0.13077823601309835,0.004369140749035368
+heading_chunk26,1,dc/dx0 = s + const | ds/dx0 = c + s,0.13030913653176152,2628.790041278287
+heading_chunk26,1,dc/dx0 = s | ds/dx0 = c + s,0.13060119858990724,2624.5728115812235
+heading_chunk26,1,dc/dx0 = c + s + const | ds/dx0 = c + s,0.1298984356570992,2751.745174758874
+heading_chunk26,1,dc/dx0 = c + s + const | ds/dx0 = c,0.13007547308029033,127.1767323183922
+heading_chunk26,2,dc/dx0 = s | ds/dx0 = c,0.13077823601309835,0.004369140749035368
+heading_chunk26,2,dc/dx0 = s + const | ds/dx0 = c + s,0.13030913653176152,2628.790041278726
+heading_chunk26,2,dc/dx0 = s | ds/dx0 = c + s,0.13060119858990724,2624.572811581663
+heading_chunk26,2,dc/dx0 = c + s + const | ds/dx0 = c,0.13007547308029033,127.17673231839962
+heading_chunk26,2,dc/dx0 = c + s + const | ds/dx0 = c + s,0.1298984356570992,2751.745174758874
+heading_chunk26,2,dc/dx0 = s + const | ds/dx0 = c,0.13048617395495263,4.221598837812692
+heading_chunk26,3,dc/dx0 = c + s + const | ds/dx0 = c,0.13007547308029033,127.17673231839962
+heading_chunk26,3,dc/dx0 = s + const | ds/dx0 = c,0.13048617395495263,4.221598837812692
+heading_chunk26,3,dc/dx0 = s | ds/dx0 = c,0.13077823601309835,0.004369140749035368
+heading_chunk26,3,dc/dx0 = s + const | ds/dx0 = c + s,0.13030913653176152,2628.790041278726
+heading_chunk26,3,dc/dx0 = s | ds/dx0 = c + s,0.13060119858990724,2624.572811581663
+heading_chunk26,3,dc/dx0 = c + s + const | ds/dx0 = c + s,0.1298984356570992,2751.745174759306
+heading_chunk26,4,dc/dx0 = s + const | ds/dx0 = c,0.13048617395495263,4.221598837812692
+heading_chunk26,4,dc/dx0 = s | ds/dx0 = c,0.13077823601309835,0.004369140749035368
+heading_chunk26,4,dc/dx0 = c + s + const | ds/dx0 = c,0.13007547308029033,127.17673231839962
+heading_chunk26,4,dc/dx0 = s + const | ds/dx0 = c + s,0.13030913653176152,2628.790041278287
+heading_chunk26,4,dc/dx0 = s | ds/dx0 = c + s,0.13060119858990724,2624.5728115812235
+heading_chunk26,4,dc/dx0 = c + s + const | ds/dx0 = c + s,0.1298984356570992,2751.745174759313
+drift_orientation,0,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_orientation,0,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_orientation,1,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_orientation,1,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_orientation,2,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_orientation,2,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_orientation,3,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_orientation,3,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_orientation,4,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_orientation,4,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_repair,0,du/dx0 = push_x + sin_phi + u + const,0.8628871874702739,0.2561902833277751
+drift_repair,0,du/dx0 = cos_phi + push_x + sin_phi + u + const,0.8542567028210346,0.35574030710979404
+drift_repair,0,du/dx0 = cos_phi + push_x + sin_phi + const,0.8626242374901788,0.3144487618549253
+drift_repair,1,du/dx0 = cos_phi + push_x + sin_phi + const,0.8626242374901788,0.31444876185492576
+drift_repair,1,du/dx0 = cos_phi + push_x + sin_phi + u + const,0.8542567028210346,0.35574030710979426
+drift_repair,1,du/dx0 = push_x + sin_phi + u + const,0.8628871874702739,0.2561902833277751
+drift_repair,2,du/dx0 = cos_phi + push_x + sin_phi + const,0.8626242374901788,0.314448761854926
+drift_repair,2,du/dx0 = cos_phi + push_x + sin_phi + u + const,0.8542567028210346,0.35574030710979404
+drift_repair,2,du/dx0 = push_x + sin_phi + u + const,0.8628871874702739,0.2561902833277744
+drift_repair,3,du/dx0 = push_x + sin_phi + u + const,0.8628871874702739,0.25619028332777505
+drift_repair,3,du/dx0 = cos_phi + push_x + sin_phi + u + const,0.8542567028210346,0.35574030710979393
+drift_repair,3,du/dx0 = cos_phi + push_x + sin_phi + const,0.8626242374901788,0.314448761854926
+drift_repair,4,du/dx0 = cos_phi + push_x + sin_phi + const,0.8626242374901788,0.314448761854926
+drift_repair,4,du/dx0 = push_x + sin_phi + u + const,0.8628871874702739,0.25619028332777444
+drift_repair,4,du/dx0 = cos_phi + push_x + sin_phi + u + const,0.8551409629443203,0.354171276463507
+drift,0,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift,0,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift,0,du/dx0 = push_x + sin_phi + const,0.8779802872005911,52511.34742105703
+drift,0,du/dx0 = push_x + sin_phi + u,0.8812707524979575,522.7687093803002
+drift,1,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift,1,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift,1,du/dx0 = push_x + sin_phi + u,0.8812707524979575,522.7687093803002
+drift,1,du/dx0 = push_x + sin_phi + const,0.8779802872005911,52511.34742105703
+drift,2,du/dx0 = push_x + sin_phi + u,0.8812707524979577,522.7687093802525
+drift,2,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift,2,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift,2,du/dx0 = push_x + sin_phi + const,0.8779802872005911,52511.34742105703
+drift,3,du/dx0 = push_x + sin_phi + const,0.8779802872005911,52511.34742105703
+drift,3,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift,3,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift,3,du/dx0 = push_x + sin_phi + u,0.8812707524979575,522.7687093816966
+drift,4,du/dx0 = push_x + sin_phi + const,0.8779802872005911,52511.34742105703
+drift,4,du/dx0 = push_x + sin_phi + u,0.8812707524979575,522.7687093816966
+drift,4,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift,4,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_wall_robot,0,du/dx0 = cos_phi + sin_phi,0.8802628960984537,637.330295101033
+drift_wall_robot,0,du/dx0 = sin_phi,0.9404685699510051,270.38376233319974
+drift_wall_robot,0,du/dx0 = sin_phi + const,0.9603592530614807,51.40288080288397
+drift_wall_robot,1,du/dx0 = sin_phi + const,0.9603592530614807,51.40288080288397
+drift_wall_robot,1,du/dx0 = sin_phi,0.9404685699510051,270.38376233319974
+drift_wall_robot,1,du/dx0 = cos_phi + sin_phi,0.8802628960984537,637.330295101033
+drift_wall_robot,2,du/dx0 = cos_phi + sin_phi,0.8802628960984537,637.330295101033
+drift_wall_robot,2,du/dx0 = sin_phi,0.9404685699510051,270.38376233319974
+drift_wall_robot,2,du/dx0 = sin_phi + const,0.9603592530614807,51.40288080288397
+drift_wall_robot,3,du/dx0 = cos_phi + sin_phi,0.8802628960984537,637.330295101033
+drift_wall_robot,3,du/dx0 = sin_phi,0.9404685699510051,270.38376233319974
+drift_wall_robot,3,du/dx0 = sin_phi + const,0.9603592530614807,51.40288080288397
+drift_wall_robot,4,du/dx0 = cos_phi + sin_phi,0.8802628960984537,637.330295101033
+drift_wall_robot,4,du/dx0 = sin_phi,0.9404685699510051,270.38376233319974
+drift_wall_robot,4,du/dx0 = sin_phi + const,0.9603592530614807,51.40288080288397
+drift_lag5,0,du/dx0 = sin_phi + const,0.9789458322510204,59.37145865581709
+drift_lag5,0,du/dx0 = sin_phi,0.9810879106867867,12.818411088481907
+drift_lag5,0,du/dx0 = cos_phi + sin_phi + const,0.978856485288224,7129.641534847462
+drift_lag5,1,du/dx0 = sin_phi + const,0.9789458322510204,59.37145865581709
+drift_lag5,1,du/dx0 = sin_phi,0.9810879106867867,12.818411088481907
+drift_lag5,1,du/dx0 = cos_phi + sin_phi + const,0.9788564852882241,7129.641534845523
+drift_lag5,2,du/dx0 = sin_phi + const,0.9789458322510204,59.37145865581709
+drift_lag5,2,du/dx0 = sin_phi,0.9810879106867867,12.818411088481907
+drift_lag5,2,du/dx0 = cos_phi + sin_phi + const,0.978856485288224,7129.641534847462
+drift_lag5,3,du/dx0 = sin_phi + const,0.9789458322510204,59.37145865581709
+drift_lag5,3,du/dx0 = sin_phi,0.9810879106867867,12.818411088481907
+drift_lag5,3,du/dx0 = cos_phi + sin_phi + const,0.9788564852882241,7129.641534845523
+drift_lag5,4,du/dx0 = sin_phi + const,0.9789458322510204,59.37145865581709
+drift_lag5,4,du/dx0 = sin_phi,0.9810879106867867,12.818411088481907
+drift_lag5,4,du/dx0 = cos_phi + sin_phi + const,0.978856485288224,7129.641534847462
+drift_lag20,0,du/dx0 = cos_phi,0.9214531803561344,14.731716455812972
+drift_lag20,0,du/dx0 = cos_phi + sin_phi,0.9033759530064102,61.142393605261574
+drift_lag20,0,du/dx0 = cos_phi + push_x + sin_phi + const,0.8427169811050748,4689.076052472043
+drift_lag20,0,du/dx0 = cos_phi + push_x + sin_phi + u,0.8474696325826234,294.1255575932611
+drift_lag20,1,du/dx0 = cos_phi + sin_phi,0.9033759530064102,61.14239360526142
+drift_lag20,1,du/dx0 = cos_phi + push_x + sin_phi + u,0.8474696325826234,294.1112320840488
+drift_lag20,1,du/dx0 = cos_phi + push_x + sin_phi + const,0.8427169811050751,4689.069175547247
+drift_lag20,1,du/dx0 = cos_phi,0.9214531803561344,14.731716455812972
+drift_lag20,2,du/dx0 = cos_phi + push_x + sin_phi + const,0.8427169811050749,4689.07911909618
+drift_lag20,2,du/dx0 = cos_phi + push_x + sin_phi + u,0.8474696325826236,294.14033639082925
+drift_lag20,2,du/dx0 = cos_phi + sin_phi,0.9033759530064102,61.14239360526142
+drift_lag20,2,du/dx0 = cos_phi,0.9214531803561344,14.731716455812972
+drift_lag20,3,du/dx0 = cos_phi + push_x + sin_phi + const,0.8427169811050751,4689.078844641099
+drift_lag20,3,du/dx0 = cos_phi + push_x + sin_phi + u,0.8474696325826236,294.13075767870316
+drift_lag20,3,du/dx0 = cos_phi + sin_phi,0.9033759530064102,61.14239360526142
+drift_lag20,3,du/dx0 = cos_phi,0.9214531803561344,14.731716455812972
+drift_lag20,4,du/dx0 = cos_phi + push_x + sin_phi + const,0.8427169811050751,4689.078844641099
+drift_lag20,4,du/dx0 = cos_phi + sin_phi,0.9033759530064102,61.142393605261574
+drift_lag20,4,du/dx0 = cos_phi + push_x + sin_phi + u,0.8474696325826236,294.14204804589826
+drift_lag20,4,du/dx0 = cos_phi,0.9214531803561344,14.731716455812972
+drift_second,0,d^2u/dx0^2 = cos_phi + u,0.8185759838858249,180.75026083263865
+drift_second,0,d^2u/dx0^2 = cos_phi + sin_phi + const,0.8232693771618695,64.41116139757032
+drift_second,0,d^2u/dx0^2 = cos_phi + du/dx0 + push_x,0.7999680323816653,294.0691217734775
+drift_second,0,d^2u/dx0^2 = cos_phi,0.8298057320313103,7.840295020506901
+drift_second,0,d^2u/dx0^2 = cos_phi + du/dx0 + u,0.8264136436333068,54.956779811413455
+drift_second,1,d^2u/dx0^2 = cos_phi + sin_phi + const,0.8232693771618695,64.41116139753896
+drift_second,1,d^2u/dx0^2 = cos_phi + du/dx0 + u,0.8264136436333068,54.95677981141523
+drift_second,1,d^2u/dx0^2 = cos_phi + du/dx0 + push_x,0.7999680323816653,294.0691217734496
+drift_second,1,d^2u/dx0^2 = cos_phi,0.8298057320313103,7.840295020506901
+drift_second,1,d^2u/dx0^2 = cos_phi + u,0.8185759838858249,180.750260832639
+drift_second,2,d^2u/dx0^2 = cos_phi + u,0.8185759838858249,180.75026083263865
+drift_second,2,d^2u/dx0^2 = cos_phi,0.8298057320313103,7.840295020506901
+drift_second,2,d^2u/dx0^2 = cos_phi + du/dx0 + u,0.8264136436333068,54.95677981141992
+drift_second,2,d^2u/dx0^2 = cos_phi + sin_phi + const,0.8232693771618695,64.41116139753896
+drift_second,2,d^2u/dx0^2 = cos_phi + du/dx0 + push_x,0.7999680323816653,294.0691217734775
+drift_second,3,d^2u/dx0^2 = cos_phi + sin_phi + const,0.8232693771618695,64.41116139753896
+drift_second,3,d^2u/dx0^2 = cos_phi,0.8298057320313103,7.840295020506901
+drift_second,3,d^2u/dx0^2 = cos_phi + du/dx0 + push_x,0.7999680323816653,294.0691217734775
+drift_second,3,d^2u/dx0^2 = cos_phi + du/dx0 + u,0.826413643633307,54.95677981140041
+drift_second,3,d^2u/dx0^2 = cos_phi + u,0.8185759838858249,180.75026083263865
+drift_second,4,d^2u/dx0^2 = cos_phi + sin_phi + const,0.8232693771618695,64.41116139757032
+drift_second,4,d^2u/dx0^2 = cos_phi + u,0.8185759838858249,180.750260832639
+drift_second,4,d^2u/dx0^2 = cos_phi,0.8298057320313103,7.840295020506901
+drift_second,4,d^2u/dx0^2 = cos_phi + du/dx0 + u,0.8264136436333068,54.95677981141523
+drift_second,4,d^2u/dx0^2 = cos_phi + du/dx0 + push_x,0.7999680323816653,294.0691217734873
+drift_memory,0,du/dx0 = push_x + sin_phi + const,0.8779802872005911,52511.34742107718
+drift_memory,0,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_memory,0,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_memory,0,du/dx0 = push_x + sin_phi + u,0.8812707524979577,522.768709381183
+drift_memory,1,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_memory,1,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_memory,1,du/dx0 = push_x + sin_phi + const,0.8779802872005911,52511.34742107718
+drift_memory,1,du/dx0 = push_x + sin_phi + u,0.8812707524979577,522.768709381183
+drift_memory,2,du/dx0 = push_x + sin_phi + u,0.8812707524979577,522.768709381183
+drift_memory,2,du/dx0 = push_x + sin_phi + const,0.8779802872005911,52511.34742105703
+drift_memory,2,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_memory,2,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_memory,3,du/dx0 = push_x + sin_phi + u,0.8812707524979575,522.7687093803002
+drift_memory,3,du/dx0 = push_x + sin_phi + const,0.8779802872005911,52511.34742105703
+drift_memory,3,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_memory,3,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_memory,4,du/dx0 = push_x + sin_phi + const,0.8779802872005911,52511.34742107718
+drift_memory,4,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_memory,4,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_memory,4,du/dx0 = push_x + sin_phi + u,0.8812707524979577,522.768709381183
+drift_products,0,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_products,0,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_products,0,du/dx0 = push_x + sin_phi + u,0.8812707524979577,522.7687093802525
+drift_products,0,du/dx0 = sin_phi * u,0.9797128014408512,1.5503683094473757
+drift_products,0,du/dx0 = push_x + sin_phi + sin_phi * u + const,0.8576524285045815,1989.5045351792246
+drift_products,0,du/dx0 = cos_phi + push_x + sin_phi * u + const,0.9270035906262477,519.3761036409576
+drift_products,0,du/dx0 = cos_phi * sin_phi + push_x + sin_phi + const,0.8614862431418963,1468.5415416285803
+drift_products,0,du/dx0 = push_x + sin_phi + sin_phi * u + u,0.8475534830911646,4756.9055519510775
+drift_products,0,du/dx0 = cos_phi * sin_phi + sin_phi + const,0.931723971203126,438.92260676679183
+drift_products,1,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_products,1,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_products,1,du/dx0 = sin_phi * u,0.9797128014408512,1.5503683094473757
+drift_products,1,du/dx0 = push_x + sin_phi + u,0.8812707524979577,522.7687093802525
+drift_products,1,du/dx0 = push_x + sin_phi + sin_phi * u + const,0.8576524285045067,1989.50514452289
+drift_products,1,du/dx0 = cos_phi + push_x + sin_phi * u + const,0.9270035906262477,519.3761036409576
+drift_products,1,du/dx0 = push_x + sin_phi + sin_phi * u + u,0.8475534830912973,4751.481245743856
+drift_products,1,du/dx0 = cos_phi * sin_phi + sin_phi + const,0.931723971203126,438.92260676669645
+drift_products,1,du/dx0 = cos_phi * sin_phi + push_x + sin_phi + const,0.8614862431418959,1468.5217219432939
+drift_products,2,du/dx0 = sin_phi * u,0.9797128014408512,1.5503683094473757
+drift_products,2,du/dx0 = push_x + sin_phi + sin_phi * u + const,0.8576524285044103,1989.5074096427654
+drift_products,2,du/dx0 = push_x + sin_phi + u,0.8812707524979577,522.7687093802525
+drift_products,2,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_products,2,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_products,2,du/dx0 = push_x + sin_phi + sin_phi * u + u,0.8475534830912499,4755.177365138523
+drift_products,2,du/dx0 = cos_phi + push_x + sin_phi * u + const,0.9270035906262477,519.3761036409576
+drift_products,3,du/dx0 = push_x + sin_phi + sin_phi * u + const,0.8576524285044361,1989.5067428031978
+drift_products,3,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_products,3,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_products,3,du/dx0 = sin_phi * u,0.9797128014408512,1.5503683094473757
+drift_products,3,du/dx0 = push_x + sin_phi + u,0.8812707524979577,522.7687093802525
+drift_products,3,du/dx0 = cos_phi + push_x + sin_phi * u + const,0.9270035906262473,519.3699399716787
+drift_products,3,du/dx0 = push_x + sin_phi + sin_phi * u + u,0.8475534830911291,4755.031678774519
+drift_products,4,du/dx0 = sin_phi,0.9378441565130359,1.6338365154219225
+drift_products,4,du/dx0 = sin_phi + const,0.9326363817117438,29.91261200098509
+drift_products,4,du/dx0 = push_x + sin_phi + u,0.8812707524979575,522.7687093820508
+drift_products,4,du/dx0 = push_x + sin_phi + sin_phi * u + const,0.8576524285045339,1989.502520651531
+drift_products,4,du/dx0 = cos_phi + push_x + sin_phi * u + const,0.9270035906262477,519.379865804598
+drift_products,4,du/dx0 = sin_phi * u,0.9797128014408512,1.5503683094473757
+drift_products,4,du/dx0 = push_x + sin_phi + sin_phi * u + u,0.847553483091241,4752.497973584275
+drift_trig,0,du/dx0 = cos(4.011t),0.9856557499668349,8.011041514234138
+drift_trig,0,du/dx0 = cos(4.378t) + sin(4.363t),0.942668472102148,13.480945629434164
+drift_trig,0,du/dx0 = push_x + sin(4.363t) + const,0.8878661167682959,216.198195751349
+drift_trig,0,du/dx0 = cos(4.378t),0.9495184549104951,11.734025435307528
+drift_trig,0,du/dx0 = cos(4.295t),0.9893652165737704,2.234977655231967
+drift_trig,0,du/dx0 = cos(4.671t) + sin(4.375t),0.915322376740983,16.500100138130037
+drift_trig,1,du/dx0 = cos(4.136t) + push_x + const,0.9440561088654926,143.11585058596432
+drift_trig,1,du/dx0 = cos(4.616t) + push_x,0.9442246546440115,81.80622219154579
+drift_trig,1,du/dx0 = cos(4.203t),0.979874397072997,4.47860825765143
+drift_trig,1,du/dx0 = sin(4.413t),0.9563749189767975,4.781260643020605
+drift_trig,1,du/dx0 = cos(4.309t) + push_x + sin(4.369t) + u,0.8861732396164703,4258.861346129128
+drift_trig,1,du/dx0 = cos(4.301t) + push_x + sin(4.369t),0.8922328027032247,178.98202363950014
+drift_trig,1,du/dx0 = cos(4.203t) + push_x + sin(4.536t),0.9471547631373631,37.48981756580035
+drift_trig,2,du/dx0 = push_x + sin(4.383t),0.9243772939051387,104.27578700892579
+drift_trig,2,du/dx0 = cos(4.336t),0.9410074201870124,2.8466944668445824
+drift_trig,2,du/dx0 = cos(4.310t),0.9903085357861445,2.03826688386118
+drift_trig,2,du/dx0 = sin(4.370t) + sin(4.573t) + const,0.9166677184649653,446.6338663132335
+drift_trig,2,du/dx0 = push_x + sin(4.370t) + sin(4.563t),0.8780451892931408,698.1751550935478
+drift_trig,2,du/dx0 = push_x + sin(4.370t) + sin(4.563t) + const,0.8821502704708836,584.7278065921138
+drift_trig,2,du/dx0 = cos(4.589t) + push_x + sin(4.573t) + u,0.9180952282100046,391.2370640096887
+drift_trig,3,du/dx0 = push_x + sin(4.400t),0.9253480586715309,53.266112004616275
+drift_trig,3,du/dx0 = sin(4.350t),0.9607706563889372,2.531994749347634
+drift_trig,3,du/dx0 = push_x + sin(4.362t),0.9244023101483793,85.80870566310679
+drift_trig,3,du/dx0 = sin(4.388t),0.9612130181143368,1.5254872951778238
+drift_trig,3,du/dx0 = push_x + sin(4.593t),0.9318819528519632,44.583959366389465
+drift_trig,3,du/dx0 = push_x + sin(4.148t) + sin(4.413t),0.8860063198525664,100.44384998262402
+drift_trig,3,du/dx0 = sin(4.148t) + sin(4.365t),0.9589338949042747,12.209048910047889
+drift_trig,3,du/dx0 = cos(4.340t) + push_x + sin(4.295t) + const,0.8561059295113994,315.04964240899164
+drift_trig,3,du/dx0 = cos(4.340t) + sin(4.335t),0.9468325894436066,13.3921924579668
+drift_trig,4,du/dx0 = cos(4.022t),0.9871464347921628,2.4970736989111724
+drift_trig,4,du/dx0 = push_x + sin(4.374t) + const,0.8976923239656092,967.6469539092111
+drift_trig,4,du/dx0 = sin(4.374t),0.9713068400603279,3.087111235020145
+drift_trig,4,du/dx0 = cos(4.319t),0.9413675052617655,3.6024874200668
+drift_trig,4,du/dx0 = push_x + sin(4.364t) + u,0.9184827080264009,199.89765247995885
+drift_trig,4,du/dx0 = cos(4.254t) + push_x + u,0.9097917351271272,641.5930330976873
+drift_trig,4,du/dx0 = cos(4.301t),0.9897851117025858,2.1128372561327917
+drift_trig,4,du/dx0 = sin(4.374t) + sin(4.601t),0.9273320298272222,12.312255995380383
+drift_trig,4,du/dx0 = cos(4.101t),0.9971711566035842,1.7832073714899612
+drift_trig,4,du/dx0 = push_x + sin(4.357t) + sin(4.643t) + u,0.9169232339434483,300.2538811416407
+drift_trig,4,du/dx0 = cos(4.240t) + push_x + sin(4.215t),0.9169110116490538,393.24551682757436
+drift_trig,4,du/dx0 = push_x + sin(4.357t) + sin(4.555t) + const,0.8830826415397083,3646.8841948681616
+drift_trig,4,du/dx0 = cos(4.210t) + cos(4.327t) + push_x + u,0.8692186213521356,10849.050585958079
+drift_trig,4,du/dx0 = cos(4.017t) + push_x + sin(4.374t),0.8855994978099085,1416.4940345504706
+drift_trig,4,du/dx0 = push_x + sin(4.357t) + sin(4.555t) + u,0.8830734154360818,3841.0777517079155
+drift_trig,4,du/dx0 = cos(4.328t) + sin(4.280t),0.9247680768349298,29.847683070368532
+drift_chi2,0,du/dx0 = sin_phi,0.9378441565130359,1.4904272723149294
+drift_chi2,0,du/dx0 = cos_phi + push_x + sin_phi + const,0.8965520815742445,3.866838382892532
+drift_chi2,0,du/dx0 = push_x + sin_phi + u,0.8812707524979575,6.953537454564729
+drift_chi2,0,du/dx0 = push_x + sin_phi + const,0.8779802872005911,505.15404479381664
+drift_chi2,0,du/dx0 = cos_phi + push_x + sin_phi + u,0.8975626775669727,1.7555321044094159
+drift_chi2,1,du/dx0 = sin_phi,0.9378441565130359,1.4904272723149294
+drift_chi2,1,du/dx0 = push_x + sin_phi + u,0.8812707524979575,6.953537454564667
+drift_chi2,1,du/dx0 = push_x + sin_phi + const,0.8779802872005911,505.1540447946653
+drift_chi2,1,du/dx0 = cos_phi + push_x + sin_phi + u,0.8975626775669726,1.7555321044094823
+drift_chi2,1,du/dx0 = cos_phi + push_x + sin_phi + const,0.8965520815742445,3.8668383828923294
+drift_chi2,2,du/dx0 = cos_phi + push_x + sin_phi + const,0.8965520815742445,3.8668383828923294
+drift_chi2,2,du/dx0 = cos_phi + push_x + sin_phi + u,0.8975626775669726,1.7555321044094834
+drift_chi2,2,du/dx0 = push_x + sin_phi + u,0.8812707524979577,6.953537454564612
+drift_chi2,2,du/dx0 = sin_phi,0.9378441565130359,1.4904272723149294
+drift_chi2,2,du/dx0 = push_x + sin_phi + const,0.8779802872005911,505.1540447946653
+drift_chi2,3,du/dx0 = push_x + sin_phi + const,0.8779802872005911,505.1540447946653
+drift_chi2,3,du/dx0 = cos_phi + push_x + sin_phi + const,0.8965520815742445,3.8668383828923294
+drift_chi2,3,du/dx0 = cos_phi + push_x + sin_phi + u,0.8975626775669724,1.755532104409425
+drift_chi2,3,du/dx0 = push_x + sin_phi + u,0.8812707524979577,6.953537454564612
+drift_chi2,3,du/dx0 = sin_phi,0.9378441565130359,1.4904272723149294
+drift_chi2,4,du/dx0 = push_x + sin_phi + const,0.8779802872005911,505.1540447946653
+drift_chi2,4,du/dx0 = cos_phi + push_x + sin_phi + u,0.8975626775669724,1.7555321044094294
+drift_chi2,4,du/dx0 = push_x + sin_phi + u,0.8812707524979577,6.953537454564672
+drift_chi2,4,du/dx0 = sin_phi,0.9378441565130359,1.4904272723149294
+drift_chi2,4,du/dx0 = cos_phi + push_x + sin_phi + const,0.8965520815742448,3.8668383828929174
+drift_raw,0,du/dx0 = cos_phi,0.9628724058894561,3.3122172496423192
+drift_raw,0,du/dx0 = cos_phi + sin_phi + u,0.9469594189350793,11180.777008568817
+drift_raw,0,du/dx0 = cos_phi + sin_phi + const,0.9409298623460911,138630.05999105176
+drift_raw,0,du/dx0 = cos_phi + sin_phi,0.9499890373057328,51.36715414175944
+drift_raw,1,du/dx0 = cos_phi + sin_phi + const,0.9409298623460911,138630.0599910415
+drift_raw,1,du/dx0 = cos_phi + sin_phi,0.9499890373057328,51.36715414175948
+drift_raw,1,du/dx0 = cos_phi + sin_phi + u,0.9469594189350793,11180.777008568817
+drift_raw,1,du/dx0 = cos_phi,0.9628724058894561,3.3122172496423192
+drift_raw,2,du/dx0 = cos_phi + sin_phi + const,0.9409298623460911,138630.05999105176
+drift_raw,2,du/dx0 = cos_phi + sin_phi,0.9499890373057328,51.36715414175944
+drift_raw,2,du/dx0 = cos_phi + sin_phi + u,0.9469594189350793,11180.777008546776
+drift_raw,2,du/dx0 = cos_phi,0.9628724058894561,3.3122172496423192
+drift_raw,3,du/dx0 = cos_phi + sin_phi + u,0.9469594189350793,11180.777008546776
+drift_raw,3,du/dx0 = cos_phi + sin_phi + const,0.9409298623460911,138630.0599910415
+drift_raw,3,du/dx0 = cos_phi + sin_phi,0.9499890373057328,51.36715414175948
+drift_raw,3,du/dx0 = cos_phi,0.9628724058894561,3.3122172496423192
+drift_raw,4,du/dx0 = cos_phi + sin_phi + u,0.9469594189350793,11180.777008568817
+drift_raw,4,du/dx0 = cos_phi + sin_phi + const,0.9409298623460911,138630.05999105176
+drift_raw,4,du/dx0 = cos_phi + sin_phi,0.9499890373057328,51.36715414175944
+drift_raw,4,du/dx0 = cos_phi,0.9628724058894561,3.3122172496423192
+radial,0,du/dx0 = sin_rel + const,0.8419335835707318,70.15145465427037
+radial,0,du/dx0 = sin_rel,0.8580673289574703,9.142661548929484
+radial,0,du/dx0 = cos_rel + push_r + sin_rel + const,0.8156487882385766,2140.1092250443453
+radial,1,du/dx0 = sin_rel + const,0.8419335835707318,70.15145465427037
+radial,1,du/dx0 = sin_rel,0.8580673289574703,9.142661548929484
+radial,1,du/dx0 = cos_rel + push_r + sin_rel + const,0.8156487882385766,2140.1071936640974
+radial,2,du/dx0 = cos_rel + push_r + sin_rel + const,0.8156487882385766,2140.1071936640974
+radial,2,du/dx0 = sin_rel + const,0.8419335835707318,70.15145465427037
+radial,2,du/dx0 = sin_rel,0.8580673289574703,9.142661548929484
+radial,3,du/dx0 = sin_rel + const,0.8419335835707318,70.15145465427037
+radial,3,du/dx0 = sin_rel,0.8580673289574703,9.142661548929484
+radial,3,du/dx0 = cos_rel + push_r + sin_rel + const,0.8156487882385766,2140.1078802123357
+radial,4,du/dx0 = cos_rel + push_r + sin_rel + const,0.8156487882385766,2140.1078802123357
+radial,4,du/dx0 = sin_rel,0.8580673289574703,9.142661548929484
+radial,4,du/dx0 = sin_rel + const,0.8419335835707318,70.15145465427037
+field_free,0,dPx/dx2 = d^2Py/dx1^2 + const | dPy/dx2 = Px + dPx/dx0 | drho/dx2 = drho/dx1 + const,0.9401447348300871,170.00643429576706
+field_free,0,dPx/dx2 = d^2Py/dx1^2 + const | dPy/dx2 = Px + dPx/dx0 | drho/dx2 = drho/dx1,0.9499774428393956,64.87062188224299
+field_free,0,dPx/dx2 = dPx/dx1 + dPy/dx0 + const | d^2Py/dx1^2 = dPx/dx1 + const | d^2rho/dx2^2 = dPx/dx0 + const,0.9167246172470144,66.20291450358425
+field_free,0,dPx/dx1 = dPx/dx2 + d^2Px/dx2^2 + drho/dx0 | dPy/dx2 = Px + dPx/dx0 | d^2rho/dx2^2 = dPx/dx0,0.9921685864227273,550972.9659444218
+field_free,0,dPx/dx1 = dPx/dx2 + d^2Px/dx2^2 + drho/dx0 | dPy/dx2 = Px + dPx/dx0 | d^2rho/dx2^2 = dPx/dx0 + const,0.9168250623407003,551013.6659206179
+field_free,0,dPy/dx0 = rho | d^2Px/dx1^2 = dPy/dx1 + dPy/dx2 + rho | d^2rho/dx2^2 = dPx/dx0,0.9987359581891919,4329.644382162419
+field_free,0,dPy/dx0 = rho | d^2Px/dx1^2 = dPy/dx1 + dPy/dx2 + rho | d^2rho/dx2^2 = dPx/dx0 + const,0.9233924341071648,4370.344358358346
+field_free,0,dPx/dx2 = dPx/dx1 + const | d^2Py/dx2^2 = dPy/dx1 + d^2rho/dx2^2 | drho/dx0 = Px + d^2Py/dx1^2,0.995623510768547,98.38493477369353
+field_free,0,dPx/dx2 = dPx/dx1 + const | d^2Py/dx2^2 = dPy/dx1 + d^2rho/dx2^2 + const | drho/dx0 = Px + d^2Py/dx1^2,0.9955201811683123,468.5300294031781
+field_free,0,dPx/dx2 = drho/dx0 + const | dPy/dx2 = d^2rho/dx1^2 + drho/dx1 + const | drho/dx2 = rho,0.9629699464716932,28.672315452154866
+field_free,0,dPx/dx2 = dPx/dx1 + d^2Py/dx1^2 + drho/dx0 | dPy/dx2 = Px + dPx/dx0 | drho/dx2 = dPx/dx0 + const,0.9471253928490259,341819.40422323055
+field_free,0,dPx/dx0 = dPy/dx2 + d^2Py/dx1^2 | d^2Py/dx2^2 = drho/dx0 + const | drho/dx2 = drho/dx1,0.9514452485373819,31.5139363474446
+field_free,0,dPx/dx0 = Py + dPy/dx2 | dPy/dx0 = rho | drho/dx0 = dPx/dx2 + rho,0.9938661492623743,3161.528669502475
+field_free,0,dPx/dx0 = Py + dPy/dx2 | dPy/dx0 = rho | drho/dx0 = dPx/dx2 + rho + const,0.9940150733804677,344.1109706526472
+field_free,0,dPx/dx2 = dPx/dx1 + drho/dx0 | d^2Py/dx1^2 = dPx/dx1 + const | d^2rho/dx2^2 = dPx/dx0,0.9966082202806247,13.223889259064007
+field_free,0,dPx/dx2 = dPx/dx1 + drho/dx0 | d^2Py/dx1^2 = dPx/dx1 + const | d^2rho/dx2^2 = dPx/dx0 + const,0.9212646961985974,53.923865454990995
+field_free,0,dPx/dx2 = dPx/dx1 + const | d^2Py/dx2^2 = Px + const | drho/dx0 = Px + d^2Py/dx1^2,0.9974720273382824,63.65814341997475
+field_free,0,dPx/dx2 = dPx/dx1 + dPy/dx0 + const | d^2Py/dx1^2 = dPx/dx1 + const | drho/dx2 = drho/dx1,0.94963963495417,24.313667179587465
+field_free,0,dPx/dx0 = dPy/dx0 + dPy/dx1 + dPy/dx2 | d^2Py/dx2^2 = d^2Px/dx1^2 + rho + const | d^2rho/dx1^2 = dPy/dx2 + const,0.9023585660480977,95.54141139693911
+field_free,0,dPx/dx1 = drho/dx2 | dPy/dx2 = d^2Px/dx2^2 | d^2rho/dx2^2 = dPx/dx0 + drho/dx2 + const,0.9111854873162429,29.92404976234603
+field_free,0,dPx/dx2 = dPx/dx1 + dPy/dx0 + const | d^2Py/dx1^2 = d^2Px/dx2^2 + d^2Py/dx2^2 | drho/dx2 = d^2Py/dx2^2 + const,0.9331192150045838,85.89528556328712
+field_free,0,dPx/dx1 = dPy/dx0 + dPy/dx1 + dPy/dx2 | d^2Py/dx2^2 = Px + dPy/dx0 | d^2rho/dx1^2 = d^2Px/dx1^2 + drho/dx0 + const,0.9106301260109918,103.9402495270809
+field_free,0,dPx/dx2 = dPx/dx1 + const | dPy/dx1 = Px + d^2Py/dx2^2 | drho/dx0 = Py,0.9975357368375879,895.5714908058854
+field_free,0,dPx/dx0 = dPx/dx1 + dPy/dx0 + dPy/dx2 | d^2Py/dx2^2 = drho/dx1 + rho | drho/dx2 = drho/dx1,0.9511367235301696,51.855292400376605
+field_free,0,dPx/dx0 = dPx/dx1 + dPy/dx0 + dPy/dx2 | d^2Py/dx2^2 = drho/dx1 + rho | drho/dx2 = drho/dx1 + const,0.9413040155208612,156.9911048139007
+field_free,0,dPx/dx0 = dPy/dx2 + d^2Py/dx1^2 | d^2Py/dx2^2 = Px + d^2Py/dx1^2 + rho | drho/dx2 = drho/dx1,0.931016242290918,32.94207227102738
+field_free,0,dPx/dx0 = dPy/dx2 + d^2Py/dx1^2 | d^2Py/dx2^2 = Px + d^2Py/dx1^2 + rho | drho/dx2 = drho/dx1 + const,0.9211835342816096,138.07788468455146
+field_free,0,dPx/dx2 = Px + drho/dx0 + const | d^2Py/dx2^2 = d^2Py/dx1^2 + drho/dx0 | drho/dx1 = Px + const,0.9111977355743229,2568.8010874717993
+field_free,0,dPx/dx2 = dPx/dx1 + drho/dx0 | d^2Py/dx2^2 = Px + d^2Py/dx1^2 + rho | d^2rho/dx1^2 = d^2Px/dx1^2 + const,0.8870875056951539,40.084294231794296
+field_free,0,dPx/dx2 = dPx/dx1 + drho/dx0 + const | d^2Py/dx2^2 = Px + d^2Py/dx1^2 + rho | d^2rho/dx1^2 = d^2Px/dx1^2 + const,0.8868709903814879,99.18836789912234
+field_free,0,dPx/dx2 = dPx/dx1 + const | dPy/dx1 = Px + d^2Py/dx2^2 + drho/dx0 | d^2rho/dx1^2 = d^2Px/dx1^2 + const,0.9031183468492644,1229.9809315635525
+field_free,0,dPx/dx1 = Py + d^2rho/dx2^2 | d^2Py/dx2^2 = Py + rho + const | drho/dx2 = dPy/dx2 + drho/dx1,0.9062087803876585,35.32619318262572
+field_free,0,dPx/dx1 = Py + d^2rho/dx2^2 | d^2Py/dx2^2 = Py + rho + const | drho/dx2 = dPy/dx2 + drho/dx1 + const,0.8960727727698385,36.330198418617364
+field_free,0,dPx/dx2 = dPx/dx1 + dPy/dx0 + const | d^2Py/dx2^2 = Py + d^2rho/dx1^2 | drho/dx2 = d^2Px/dx2^2 + const,0.896615125795215,65.82459671862401
+field_free,0,dPx/dx2 = dPx/dx1 + dPy/dx0 + const | d^2Py/dx2^2 = Py + d^2rho/dx1^2 + const | drho/dx2 = d^2Px/dx2^2 + const,0.9048299168729151,40.159388879597465
+field_free,0,dPx/dx2 = drho/dx0 + const | dPy/dx1 = Px + dPx/dx0 + drho/dx0 | drho/dx1 = d^2Px/dx1^2 + const,0.9271723430516147,28.28967241128629
+field_free,0,dPy/dx1 = dPx/dx0 | d^2Px/dx1^2 = d^2Px/dx2^2 + d^2Py/dx1^2 + drho/dx1 | drho/dx2 = d^2Py/dx2^2 + const,0.9346504330886196,77.21349725339228
+field_free,0,dPy/dx1 = dPx/dx0 + const | d^2Px/dx1^2 = d^2Px/dx2^2 + d^2Py/dx1^2 + drho/dx1 | drho/dx2 = d^2Py/dx2^2 + const,0.9343799985690296,463.76140390812026
+field_free,0,dPx/dx2 = dPx/dx1 + dPy/dx0 + const | d^2Py/dx2^2 = Px + d^2Py/dx1^2 + rho | drho/dx2 = drho/dx1,0.9291134809422598,45.71262222029488
+field_free,0,dPx/dx2 = dPx/dx1 + dPy/dx0 + const | d^2Py/dx2^2 = Px + d^2Py/dx1^2 + rho | drho/dx2 = drho/dx1 + const,0.9192807729329512,150.84843463381898
+field_free,0,dPx/dx0 = dPy/dx2 + d^2Py/dx1^2 | d^2Py/dx2^2 = Px + d^2Py/dx1^2 + rho | drho/dx2 = d^2Px/dx2^2 + const,0.9305822863052363,45.027324912753734
+field_free,1,dPx/dx1 = d^2Py/dx1^2 | d^2Py/dx2^2 = rho | d^2rho/dx1^2 = dPy/dx1 + rho + const,0.8681527958213134,19.26852659965124
+field_free,1,dPx/dx1 = dPx/dx2 + d^2Px/dx1^2 + d^2Py/dx1^2 | d^2Py/dx2^2 = drho/dx0 + rho + const | d^2rho/dx1^2 = dPy/dx0 + rho + const,0.8645670298344882,58.20546296449411
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 | d^2Py/dx2^2 = rho | d^2rho/dx1^2 = drho/dx0 + rho,0.8331339570438301,7.455226246775357
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 | d^2Py/dx2^2 = rho | d^2rho/dx1^2 = drho/dx0 + rho + const,0.8095477096884802,30.684646013490433
+field_free,1,dPx/dx1 = d^2Py/dx1^2 | dPy/dx0 = rho | d^2rho/dx1^2 = d^2Px/dx2^2 + rho + const,0.8694268588781342,22.24371522321127
+field_free,1,dPx/dx1 = d^2Py/dx1^2 | dPy/dx0 = rho + const | d^2rho/dx1^2 = d^2Px/dx2^2 + rho + const,0.8693927018035371,46.04062519578324
+field_free,1,dPx/dx1 = dPx/dx2 | d^2Py/dx1^2 = Py + rho + const | d^2rho/dx1^2 = rho,0.8376860470865745,422.06602036142425
+field_free,1,dPx/dx1 = dPx/dx2 | d^2Py/dx1^2 = Py + rho + const | d^2rho/dx1^2 = rho + const,0.8129851282449835,507.56045044397393
+field_free,1,dPy/dx0 = rho | d^2Px/dx2^2 = Px | d^2rho/dx1^2 = rho,0.8337834423360774,8.759546729831706
+field_free,1,dPy/dx0 = rho + const | d^2Px/dx2^2 = Px | d^2rho/dx1^2 = rho,0.8337492852614803,32.55645670240368
+field_free,1,dPy/dx0 = rho | d^2Px/dx2^2 = Px + const | d^2rho/dx1^2 = rho,0.8430546623205898,3.012891076819205
+field_free,1,dPy/dx0 = rho + const | d^2Px/dx2^2 = Px + const | d^2rho/dx1^2 = rho,0.8430205052459927,26.80980104939118
+field_free,1,dPx/dx1 = dPx/dx2 + drho/dx2 + const | d^2Py/dx2^2 = Py + dPx/dx0 + drho/dx0 | d^2rho/dx1^2 = dPy/dx1 + rho + const,0.8167281015998166,217.11595616541493
+field_free,1,dPy/dx0 = drho/dx2 + rho | d^2Px/dx2^2 = Px + drho/dx0 | d^2rho/dx1^2 = d^2Py/dx1^2 + drho/dx0,0.9348329101869411,66.1884699401294
+field_free,1,dPy/dx0 = drho/dx2 + rho | d^2Px/dx2^2 = Px + drho/dx0 | d^2rho/dx1^2 = d^2Py/dx1^2 + drho/dx0 + const,0.8464461983326825,170.4996247336624
+field_free,1,dPx/dx1 = d^2Py/dx1^2 | d^2Py/dx2^2 = dPx/dx0 + drho/dx2 + rho | d^2rho/dx1^2 = d^2Px/dx2^2 + rho + const,0.8672894816320976,134.38382371474057
+field_free,1,dPx/dx1 = d^2Py/dx1^2 + rho + const | d^2Py/dx2^2 = Px + Py + d^2rho/dx2^2 | d^2rho/dx1^2 = d^2Px/dx2^2 + rho + const,0.8159013329263507,706.7562049570539
+field_free,1,dPy/dx0 = rho | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = rho + const,0.811247299149862,30.808020480024723
+field_free,1,dPy/dx0 = rho + const | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = rho + const,0.811213142075265,54.6049304525967
+field_free,1,dPy/dx0 = rho | d^2Px/dx2^2 = Px + const | d^2rho/dx2^2 = rho + const,0.8205185191343743,25.061364827012223
+field_free,1,dPy/dx0 = rho + const | d^2Px/dx2^2 = Px + const | d^2rho/dx2^2 = rho + const,0.8204843620597773,48.858274799584194
+field_free,1,dPy/dx0 = rho | d^2Px/dx2^2 = Px + drho/dx0 | d^2rho/dx1^2 = d^2rho/dx2^2 + rho,0.8198161399361349,24.960510247611552
+field_free,1,dPy/dx0 = rho + const | d^2Px/dx2^2 = Px + drho/dx0 | d^2rho/dx1^2 = d^2rho/dx2^2 + rho,0.8197819828615378,48.75742022018352
+field_free,1,dPy/dx0 = rho | d^2Px/dx2^2 = Px + drho/dx0 | d^2rho/dx1^2 = d^2rho/dx2^2 + rho + const,0.8071361356660711,81.79295431263506
+field_free,1,dPy/dx0 = rho + const | d^2Px/dx2^2 = Px + drho/dx0 | d^2rho/dx1^2 = d^2rho/dx2^2 + rho + const,0.807101978591474,105.58986428520704
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 | d^2Py/dx1^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2,0.796135056283218,3.71586387277982
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 | d^2Py/dx1^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + const,0.7675055294398195,5.6095976613044
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 | d^2Py/dx1^2 = Py + rho | d^2rho/dx1^2 = rho,0.7796215202800543,5.912074546870428
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 | d^2Py/dx1^2 = Py + rho + const | d^2rho/dx1^2 = rho,0.7777636705237508,423.9251070346506
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 | d^2Py/dx1^2 = Py + rho + const | d^2rho/dx1^2 = rho + const,0.7530627516821599,509.41953711720026
+field_free,1,d^2Px/dx2^2 = Px | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + rho,0.7659327249986564,17.41998633397135
+field_free,1,d^2Px/dx2^2 = Px + const | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + rho,0.7752039449831688,11.67333068095885
+field_free,1,d^2Px/dx2^2 = Px | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + rho + const,0.7532527207285926,74.25243039899486
+field_free,1,d^2Px/dx2^2 = Px + const | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + rho + const,0.762523940713105,68.50577474598235
+field_free,1,dPx/dx1 = dPx/dx2 | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = dPy/dx0 + rho + const,0.8145521583286195,5.673212215651852
+field_free,1,dPx/dx1 = dPx/dx2 + const | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = dPy/dx0 + rho + const,0.8142938620858365,42.2808091500377
+field_free,1,d^2Px/dx1^2 = dPy/dx1 + dPy/dx2 + const | d^2Py/dx2^2 = Py + dPx/dx2 + d^2rho/dx2^2 | d^2rho/dx1^2 = rho,0.8387665890965922,189.464964293475
+field_free,1,d^2Px/dx1^2 = dPy/dx1 + dPy/dx2 + const | d^2Py/dx2^2 = Py + dPx/dx2 + d^2rho/dx2^2 | d^2rho/dx1^2 = rho + const,0.8140656702550011,274.95939437602476
+field_free,1,dPy/dx1 = d^2Px/dx1^2 | d^2Px/dx2^2 = Px | d^2rho/dx1^2 = d^2rho/dx2^2 + drho/dx2 + rho,0.8230495323080195,20.14769220703952
+field_free,1,dPy/dx1 = d^2Px/dx1^2 + const | d^2Px/dx2^2 = Px | d^2rho/dx1^2 = d^2rho/dx2^2 + drho/dx2 + rho,0.8228596942835505,1032.2675721627195
+field_free,1,d^2Px/dx2^2 = dPx/dx1 + const | d^2Py/dx1^2 = Py | d^2rho/dx1^2 = dPx/dx0 + d^2rho/dx2^2 + rho,0.8234771231727711,2054.7011414204026
+field_free,1,d^2Px/dx2^2 = Px | d^2Py/dx1^2 = Py + rho + const | d^2rho/dx1^2 = d^2rho/dx2^2 + rho,0.7649967005760526,438.1349044069503
+field_free,1,d^2Px/dx2^2 = Px + const | d^2Py/dx1^2 = Py + rho + const | d^2rho/dx1^2 = d^2rho/dx2^2 + rho,0.774267920560565,432.38824875393783
+field_free,1,d^2Px/dx2^2 = Px | d^2Py/dx1^2 = Py + rho + const | d^2rho/dx1^2 = d^2rho/dx2^2 + rho + const,0.7523166963059889,494.96734847197376
+field_free,1,d^2Px/dx2^2 = Px + const | d^2Py/dx1^2 = Py + rho + const | d^2rho/dx1^2 = d^2rho/dx2^2 + rho + const,0.7615879162905013,489.22069281896125
+field_free,1,d^2Px/dx2^2 = Px + dPy/dx1 | d^2Py/dx2^2 = rho | d^2rho/dx1^2 = d^2rho/dx2^2 + rho + const,0.8065554679138766,88.44529795953805
+field_free,1,dPx/dx1 = dPx/dx2 | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + rho + const,0.8133506040996337,67.93512488031332
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + rho,0.7661082318068737,12.961767488516179
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + rho + const,0.7534282275368099,69.79421155353968
+field_free,1,d^2Px/dx2^2 = Px | d^2Py/dx2^2 = dPx/dx2 + const | d^2rho/dx1^2 = rho,0.8332113467121539,144.9977432849228
+field_free,1,d^2Px/dx2^2 = Px + const | d^2Py/dx2^2 = dPx/dx2 + const | d^2rho/dx1^2 = rho,0.8424825666966663,139.25108763191028
+field_free,1,dPx/dx1 = dPx/dx2 | d^2Py/dx1^2 = Py + d^2rho/dx2^2 | drho/dx0 = d^2Py/dx2^2 + const,0.9399668599446745,62.05054146465582
+field_free,1,dPx/dx1 = dPx/dx2 | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = rho,0.8386220715091782,1.3511022884452668
+field_free,1,dPx/dx1 = dPx/dx2 + const | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = rho,0.8383637752663953,37.95869922283111
+field_free,1,d^2Px/dx2^2 = Px + drho/dx0 | d^2Py/dx2^2 = dPx/dx2 + const | d^2rho/dx1^2 = d^2rho/dx2^2 + rho,0.8192440443122114,161.19870680270265
+field_free,1,d^2Px/dx2^2 = Px + drho/dx0 | d^2Py/dx2^2 = dPx/dx2 + const | d^2rho/dx1^2 = d^2rho/dx2^2 + rho + const,0.8065640400421477,218.03115086772615
+field_free,1,dPx/dx1 = dPx/dx2 | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2,0.8609701230479119,1.3441906359985258
+field_free,1,dPx/dx1 = dPx/dx2 | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + const,0.8323405962045135,3.2379244245231047
+field_free,1,d^2Px/dx2^2 = Px + d^2Px/dx1^2 | d^2Py/dx1^2 = Py + d^2Py/dx2^2 | d^2rho/dx1^2 = d^2Py/dx2^2,0.8774244665861305,54.10701426207021
+field_free,1,d^2Px/dx2^2 = Px + d^2Px/dx1^2 | d^2Py/dx1^2 = Py + d^2Py/dx2^2 | d^2rho/dx1^2 = d^2Py/dx2^2 + const,0.7886991410814304,12378.805356079984
+field_free,1,dPx/dx1 = dPx/dx2 | d^2Py/dx2^2 = dPx/dx0 | d^2rho/dx1^2 = drho/dx1 + rho,0.8844597046978177,30.276400976442492
+field_free,1,dPx/dx1 = dPx/dx2 | d^2Py/dx2^2 = dPx/dx0 + const | d^2rho/dx1^2 = drho/dx1 + rho,0.8830792658048017,66.40050099170493
+field_free,1,dPx/dx1 = dPx/dx2 + const | d^2Py/dx2^2 = dPx/dx0 | d^2rho/dx1^2 = drho/dx1 + rho,0.8842014084550348,66.88399791082834
+field_free,1,dPx/dx1 = dPx/dx2 + const | d^2Py/dx2^2 = dPx/dx0 + const | d^2rho/dx1^2 = drho/dx1 + rho,0.8828209695620188,103.00809792609077
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 + drho/dx1 | d^2Py/dx1^2 = Py + d^2Py/dx2^2 | d^2rho/dx1^2 = rho,0.7777224937892258,403.835554114031
+field_free,1,d^2Px/dx2^2 = Px + dPx/dx1 + drho/dx1 | d^2Py/dx1^2 = Py + d^2Py/dx2^2 | d^2rho/dx1^2 = rho + const,0.7530215749476348,489.3299841965808
+field_free,1,d^2Px/dx2^2 = Px | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2,0.8008722396768708,7.661496154680051
+field_free,1,d^2Px/dx2^2 = Px + const | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2,0.8101434596613832,1.914840501667549
+field_free,1,d^2Px/dx2^2 = Px | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + const,0.7722427128334726,9.55522994320463
+field_free,1,d^2Px/dx2^2 = Px + const | d^2Py/dx2^2 = Py | d^2rho/dx1^2 = d^2rho/dx2^2 + const,0.7815139328179849,3.8085742901921282
+field_free,1,d^2Px/dx2^2 = Px + dPy/dx1 | d^2Py/dx2^2 = rho | d^2rho/dx1^2 = dPy/dx0 + rho + const,0.8077570221428624,26.183385294876583
+field_free,1,dPy/dx2 = dPx/dx2 | d^2Px/dx2^2 = Px + drho/dx0 | d^2rho/dx1^2 = dPx/dx0 + d^2rho/dx2^2 + rho,0.8198709347788459,29.091933613416362
+field_free,2,dPy/dx2 = Px + dPx/dx0 | d^2Px/dx2^2 = Px + const | d^2rho/dx1^2 = dPx/dx2 + drho/dx1 + const,0.8419413978099183,31.862252512578724
+field_free,2,dPy/dx2 = Px + dPx/dx0 | d^2Px/dx2^2 = Px | d^2rho/dx1^2 = dPx/dx2 + drho/dx1 + const,0.8326701778254059,37.60890816559123
+field_free,2,dPx/dx1 = dPx/dx2 + d^2Px/dx2^2 + drho/dx1 | d^2Py/dx1^2 = d^2Px/dx2^2 + d^2Py/dx2^2 + drho/dx0 | d^2rho/dx2^2 = dPy/dx0 + const,0.9055433963310765,215.53027826022503
+field_free,2,dPy/dx2 = dPx/dx0 + const | d^2Px/dx2^2 = Px | d^2rho/dx1^2 = dPx/dx2 + const,0.8412224769102004,21.222347963929945
+field_free,2,dPy/dx2 = dPx/dx0 + const | d^2Px/dx2^2 = Px + const | d^2rho/dx1^2 = dPx/dx2 + const,0.8504936968947128,15.475692310917443
+field_free,2,dPy/dx2 = dPx/dx0 + const | d^2Px/dx2^2 = Px + d^2rho/dx1^2 | d^2rho/dx2^2 = dPx/dx2 + d^2rho/dx1^2 + const,0.8351049557501855,314.591566108564
+field_free,2,dPx/dx1 = Px + drho/dx2 + const | d^2Py/dx1^2 = Py | d^2rho/dx1^2 = dPx/dx0,0.9382570060895503,157.41462288291729
+field_free,2,dPx/dx1 = Px + drho/dx2 + const | d^2Py/dx1^2 = Py | d^2rho/dx1^2 = dPx/dx0 + const,0.8489274334188724,161.6022880658488
+field_free,2,d^2Px/dx2^2 = Px | d^2Py/dx1^2 = d^2Px/dx1^2 | d^2rho/dx1^2 = Py,0.9363868940707091,14.450699440085051
+field_free,2,d^2Px/dx2^2 = Px | d^2Py/dx1^2 = d^2Px/dx1^2 + const | d^2rho/dx1^2 = Py,0.9361804450973098,25.57116321500153
+field_free,2,d^2Px/dx2^2 = Px + const | d^2Py/dx1^2 = d^2Px/dx1^2 | d^2rho/dx1^2 = Py,0.9456581140552215,8.704043787072552
+field_free,2,d^2Px/dx2^2 = Px + const | d^2Py/dx1^2 = d^2Px/dx1^2 + const | d^2rho/dx1^2 = Py,0.9454516650818222,19.82450756198903
+field_free,2,dPx/dx0 = dPy/dx0 + drho/dx2 | d^2Py/dx1^2 = Px + Py | d^2rho/dx1^2 = d^2Px/dx1^2 + d^2rho/dx2^2 + const,0.8301819432520402,2338.339907763581
+field_free,2,dPx/dx1 = Px + drho/dx2 + const | d^2Py/dx1^2 = Py | d^2rho/dx1^2 = dPx/dx0 + d^2rho/dx2^2 + const,0.8285970165498945,180.3309697407535
+field_free,2,dPx/dx0 = drho/dx2 | d^2Py/dx1^2 = Py + rho | d^2rho/dx1^2 = d^2Px/dx1^2 + d^2rho/dx2^2,0.8637107736246725,31.79152640174405
+field_free,2,dPx/dx0 = drho/dx2 | d^2Py/dx1^2 = Py + rho + const | d^2rho/dx1^2 = d^2Px/dx1^2 + d^2rho/dx2^2,0.8618529238683691,449.80455888952423
+field_free,2,d^2Px/dx1^2 = dPy/dx2 + d^2rho/dx2^2 | d^2Py/dx1^2 = Px + Py + dPy/dx1 | d^2rho/dx1^2 = d^2Py/dx2^2 + d^2rho/dx2^2,0.8632746416298173,161.61654148695274
+field_free,2,d^2Px/dx1^2 = dPy/dx2 + d^2rho/dx2^2 + const | d^2Py/dx1^2 = Px + Py + dPy/dx1 | d^2rho/dx1^2 = d^2Py/dx2^2 + d^2rho/dx2^2,0.8633205535647511,138.89230342550908
+field_free,2,d^2Px/dx2^2 = d^2Px/dx1^2 | d^2Py/dx1^2 = Px + Py | d^2rho/dx1^2 = drho/dx1 + const,0.8283495162807952,962.2800496683404
+field_free,2,d^2Px/dx2^2 = d^2Px/dx1^2 + const | d^2Py/dx1^2 = Px + Py | d^2rho/dx1^2 = drho/dx1 + const,0.8281107988390585,5856.891606364683
+field_free,2,dPx/dx1 = Py + drho/dx0 | dPy/dx1 = Px | d^2rho/dx1^2 = d^2Px/dx1^2 + d^2rho/dx2^2,0.9180137678102515,37.1330346849733
+field_free,2,dPx/dx1 = Py + drho/dx0 | dPy/dx1 = Px | d^2rho/dx1^2 = d^2Px/dx1^2 + d^2rho/dx2^2 + const,0.8895774998389315,1352.6566244156274
+field_free,2,dPx/dx1 = Py + drho/dx0 + const | dPy/dx1 = Px | d^2rho/dx1^2 = d^2Px/dx1^2 + d^2rho/dx2^2 + const,0.8888916608868594,1766.496083766068
+field_free,2,d^2Px/dx1^2 = Px + drho/dx2 | d^2Py/dx1^2 = Py | d^2rho/dx1^2 = Py,0.8865232892535658,6.00697507890082
+field_free,2,d^2Px/dx1^2 = Px + drho/dx2 | d^2Py/dx1^2 = Py | d^2rho/dx1^2 = Py + const,0.7980584546678081,37.70413673710575
+field_free,2,dPy/dx2 = Px + dPx/dx0 | d^2Px/dx2^2 = d^2Px/dx1^2 | d^2rho/dx1^2 = drho/dx1 + const,0.8806844286129379,3.2612403422924694
+field_free,2,dPy/dx2 = Px + dPx/dx0 | d^2Px/dx2^2 = d^2Px/dx1^2 + const | d^2rho/dx1^2 = drho/dx1 + const,0.8804457111712011,4897.872797038634
+field_free,2,d^2Px/dx2^2 = Px | d^2Py/dx2^2 = Py + d^2rho/dx2^2 + drho/dx1 | d^2rho/dx1^2 = dPx/dx2 + drho/dx1 + const,0.7867850804812292,151078.96741423337
+field_free,2,d^2Px/dx2^2 = Px | d^2Py/dx1^2 = d^2Px/dx1^2 | d^2rho/dx1^2 = dPx/dx0 + d^2rho/dx2^2 + const,0.8270912715558181,35.237495994180726
+field_free,2,d^2Px/dx2^2 = Px | d^2Py/dx1^2 = d^2Px/dx1^2 + const | d^2rho/dx1^2 = dPx/dx0 + d^2rho/dx2^2 + const,0.8268848225824188,46.3579597690972
+field_free,2,d^2Px/dx2^2 = Px + const | d^2Py/dx1^2 = d^2Px/dx1^2 | d^2rho/dx1^2 = dPx/dx0 + d^2rho/dx2^2 + const,0.8363624915403304,29.490840341168223
+field_free,2,d^2Px/dx2^2 = Px + const | d^2Py/dx1^2 = d^2Px/dx1^2 + const | d^2rho/dx1^2 = dPx/dx0 + d^2rho/dx2^2 + const,0.8361560425669311,40.6113041160847
+field_free,2,d^2Px/dx1^2 = dPx/dx1 + dPy/dx2 + drho/dx2 | d^2Py/dx2^2 = dPy/dx0 + d^2rho/dx2^2 | d^2rho/dx1^2 = d^2rho/dx2^2 + drho/dx1 + const,0.8825320438389243,1452.734534087482
+field_free,2,d^2Px/dx1^2 = Px | d^2Py/dx2^2 = Py + d^2rho/dx2^2 + drho/dx1 | d^2rho/dx1^2 = dPx/dx0 + d^2rho/dx2^2 + const,0.7823875831089673,151068.45783072014
+field_free,2,d^2Px/dx2^2 = Px | d^2Py/dx1^2 = rho | d^2rho/dx1^2 = dPx/dx0 + dPy/dx1 + const,0.849679345280193,13.848459585756544
+field_free,2,d^2Px/dx2^2 = Px | d^2Py/dx1^2 = rho + const | d^2rho/dx1^2 = dPx/dx0 + dPy/dx1 + const,0.8495090979765189,170.52685518618668
+field_free,2,d^2Px/dx2^2 = Px + const | d^2Py/dx1^2 = rho | d^2rho/dx1^2 = dPx/dx0 + dPy/dx1 + const,0.8589505652647054,8.101803932744042
+field_free,2,d^2Px/dx2^2 = Px + const | d^2Py/dx1^2 = rho + const | d^2rho/dx1^2 = dPx/dx0 + dPy/dx1 + const,0.8587803179610313,164.78019953317417
+field_free,2,d^2Px/dx2^2 = Px + dPy/dx1 | d^2Py/dx1^2 = dPy/dx1 | d^2rho/dx1^2 = dPx/dx0 + dPx/dx1 + d^2rho/dx2^2,0.8526741127593858,112.36189582432182
+field_free,2,dPx/dx1 = d^2Py/dx1^2 + d^2rho/dx2^2 + rho | d^2Py/dx2^2 = Py + d^2rho/dx2^2 | d^2rho/dx1^2 = d^2rho/dx2^2,0.8610017942691731,20.84487897966525
+field_free,3,dPy/dx2 = Py + const | d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2rho/dx2^2 = drho/dx1 + rho + const,0.8082279052684269,57.58719251345866
+field_free,3,dPx/dx1 = Px | dPy/dx2 = drho/dx0 | d^2rho/dx2^2 = Px + rho + const,0.8670568831618545,77.99901539255917
+field_free,3,d^2Px/dx1^2 = Px + drho/dx2 | d^2Py/dx1^2 = dPy/dx2 + drho/dx0 + const | d^2rho/dx2^2 = d^2Px/dx2^2 + rho + const,0.8203938725208298,115.26708647185274
+field_free,3,d^2Px/dx1^2 = Px | d^2Py/dx2^2 = dPy/dx2 + d^2Px/dx2^2 + drho/dx0 | d^2rho/dx2^2 = dPy/dx0 + drho/dx2 + rho,0.8411954722384126,58.07603890117301
+field_free,3,dPx/dx1 = Px | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = drho/dx2 + rho,0.842456455122496,16.543959591808083
+field_free,3,d^2Px/dx1^2 = Px + d^2Px/dx2^2 | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = drho/dx2 + rho,0.7909444843451107,19.113767585093896
+field_free,3,dPy/dx2 = dPx/dx2 | d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2rho/dx2^2 = drho/dx1 + rho + const,0.8089446099651987,43.25836933939607
+field_free,3,d^2Px/dx1^2 = Px + dPy/dx1 + drho/dx0 | d^2Py/dx1^2 = d^2Py/dx2^2 | d^2rho/dx2^2 = dPy/dx1 + rho + const,0.7994659620441998,161.66328452771148
+field_free,3,d^2Px/dx1^2 = Px + dPx/dx1 + dPy/dx1 | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = d^2rho/dx1^2,0.8028179512668115,1522.2169669415264
+field_free,3,d^2Px/dx1^2 = Px + dPx/dx1 + dPy/dx1 | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = d^2rho/dx1^2 + const,0.7910621765747291,1527.9596519207387
+field_free,3,dPy/dx2 = d^2Py/dx1^2 + drho/dx0 | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = d^2rho/dx1^2 + rho,0.8294698167225986,23.367966740180435
+field_free,3,dPy/dx2 = d^2Py/dx1^2 + drho/dx0 + const | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = d^2rho/dx1^2 + rho,0.8290616693143597,189.73648668776138
+field_free,3,dPy/dx2 = d^2Py/dx1^2 + drho/dx0 | d^2Px/dx2^2 = Px + const | d^2rho/dx2^2 = d^2rho/dx1^2 + rho,0.838741036707111,17.62131108716794
+field_free,3,dPy/dx2 = d^2Py/dx1^2 + drho/dx0 + const | d^2Px/dx2^2 = Px + const | d^2rho/dx2^2 = d^2rho/dx1^2 + rho,0.8383328892988721,183.9898310347489
+field_free,3,dPy/dx2 = d^2Py/dx1^2 + drho/dx0 | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = d^2rho/dx1^2 + rho + const,0.8053759087028086,23.609738155659343
+field_free,3,dPy/dx2 = d^2Py/dx1^2 + drho/dx0 + const | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = d^2rho/dx1^2 + rho + const,0.8049677612945696,189.97825810324028
+field_free,3,dPy/dx2 = d^2Py/dx1^2 + drho/dx0 | d^2Px/dx2^2 = Px + const | d^2rho/dx2^2 = d^2rho/dx1^2 + rho + const,0.814647128687321,17.863082502646844
+field_free,3,dPy/dx2 = d^2Py/dx1^2 + drho/dx0 + const | d^2Px/dx2^2 = Px + const | d^2rho/dx2^2 = d^2rho/dx1^2 + rho + const,0.8142389812790819,184.2316024502278
+field_free,3,d^2Px/dx1^2 = Px | d^2Py/dx2^2 = rho | d^2rho/dx2^2 = d^2rho/dx1^2 + rho,0.8407451270679519,7.133158918084892
+field_free,3,d^2Px/dx1^2 = Px | d^2Py/dx2^2 = rho | d^2rho/dx2^2 = d^2rho/dx1^2 + rho + const,0.8166512190481617,7.374930333563799
+field_free,3,dPy/dx0 = Py + d^2Py/dx1^2 | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = d^2Px/dx1^2 + const,0.8630124945167559,21.156144178528248
+field_free,3,d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = drho/dx2 + rho,0.7812278998436578,23.504132923424137
+field_free,3,d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = drho/dx2 + rho + const,0.7563567898210932,46.218315504349924
+field_free,3,d^2Px/dx1^2 = Px + dPx/dx1 + dPy/dx1 | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = dPy/dx1 + rho + const,0.760446032525148,1568.039081889099
+field_free,3,dPy/dx2 = dPx/dx2 | d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2rho/dx2^2 = rho,0.8477736492550475,9.323625775207654
+field_free,3,dPy/dx2 = dPx/dx2 | d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2rho/dx2^2 = rho + const,0.8108217208525418,31.350846805362014
+field_free,3,d^2Px/dx1^2 = Px | d^2Py/dx2^2 = rho | d^2rho/dx2^2 = drho/dx1 + rho + const,0.8145568432129644,36.834711783280106
+field_free,3,d^2Px/dx1^2 = Px + Py + dPy/dx1 | d^2Py/dx2^2 = d^2Py/dx1^2 | d^2rho/dx2^2 = d^2Py/dx1^2,0.9234524511252792,13.215296169764601
+field_free,3,d^2Px/dx1^2 = Px + Py + dPy/dx1 | d^2Py/dx2^2 = d^2Py/dx1^2 + const | d^2rho/dx2^2 = d^2Py/dx1^2,0.9230781400465213,19.6289839870963
+field_free,3,d^2Px/dx1^2 = Px + Py + dPy/dx1 | d^2Py/dx2^2 = d^2Py/dx1^2 | d^2rho/dx2^2 = d^2Py/dx1^2 + const,0.849058369684366,444.15938315750844
+field_free,3,d^2Px/dx1^2 = Px + Py + dPy/dx1 | d^2Py/dx2^2 = d^2Py/dx1^2 + const | d^2rho/dx2^2 = d^2Py/dx1^2 + const,0.848684058605608,450.57307097484005
+field_free,3,dPy/dx2 = d^2Py/dx1^2 + drho/dx0 | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = d^2rho/dx1^2,0.8470713642579106,19.114152520535036
+field_free,3,dPy/dx2 = d^2Py/dx1^2 + drho/dx0 + const | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = d^2rho/dx1^2,0.8466632168496716,185.482672468116
+field_free,3,dPy/dx2 = dPx/dx2 | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = d^2rho/dx1^2 + drho/dx0,0.8526341010062332,45.778017053199925
+field_free,3,dPy/dx2 = dPx/dx2 | d^2Px/dx2^2 = Px | d^2rho/dx2^2 = d^2rho/dx1^2 + drho/dx0 + const,0.8413014136565805,575.8339969038173
+field_free,3,d^2Px/dx1^2 = drho/dx0 + const | d^2Py/dx2^2 = drho/dx2 + rho | d^2rho/dx2^2 = dPy/dx1 + rho + const,0.8705457004869066,9020.079252280151
+field_free,3,d^2Px/dx1^2 = drho/dx0 + const | d^2Py/dx2^2 = drho/dx2 + rho + const | d^2rho/dx2^2 = dPy/dx1 + rho + const,0.8706864610391403,157.90452383149463
+field_free,3,d^2Px/dx1^2 = Px | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = rho,0.7998349223765838,0.280821897195769
+field_free,3,d^2Px/dx1^2 = Px | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = rho + const,0.7628829939740783,22.30804292735013
+field_free,3,d^2Px/dx2^2 = Px + drho/dx1 | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = rho,0.7955897775088613,20.641588482539213
+field_free,3,d^2Px/dx2^2 = Px + drho/dx1 | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = rho + const,0.7586378491063557,42.66880951269357
+field_free,3,dPy/dx2 = dPx/dx2 | d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2rho/dx2^2 = d^2rho/dx1^2 + rho + const,0.8110389858003962,13.798587889679757
+field_free,3,dPy/dx2 = Px + dPx/dx2 + drho/dx0 | d^2Px/dx2^2 = d^2Py/dx2^2 + d^2rho/dx2^2 | d^2rho/dx1^2 = rho,0.8895100828181675,29.23996864343162
+field_free,3,dPy/dx2 = dPx/dx2 | d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2rho/dx1^2 = d^2rho/dx2^2,0.8557059155774908,9.295461402722255
+field_free,3,dPy/dx2 = dPx/dx2 | d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2rho/dx1^2 = d^2rho/dx2^2 + const,0.8270763887340925,11.189195191246833
+field_free,3,dPy/dx1 = d^2rho/dx1^2 + drho/dx0 | d^2Px/dx1^2 = d^2Px/dx2^2 | d^2rho/dx2^2 = Py + d^2rho/dx1^2 + rho,0.8726867461319809,33.56588892126279
+field_free,3,dPy/dx1 = d^2rho/dx1^2 + drho/dx0 + const | d^2Px/dx1^2 = d^2Px/dx2^2 | d^2rho/dx2^2 = Py + d^2rho/dx1^2 + rho,0.8718973032425056,86.2818363260054
+field_free,3,d^2Px/dx1^2 = Px | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = d^2rho/dx1^2,0.8047957144770347,0.26019837654356365
+field_free,3,d^2Px/dx1^2 = Px | d^2Py/dx2^2 = Py | d^2rho/dx2^2 = d^2rho/dx1^2 + const,0.7930399397849522,6.002883355755951
+field_free,3,dPy/dx2 = drho/dx2 | d^2Px/dx2^2 = Px + d^2Py/dx2^2 | d^2rho/dx1^2 = dPy/dx1 + rho + const,0.8079322958739894,104.3796772751429
+field_free,3,dPy/dx2 = drho/dx2 + const | d^2Px/dx2^2 = Px + d^2Py/dx2^2 | d^2rho/dx1^2 = dPy/dx1 + rho + const,0.8078113897526733,112.07581852591788
+field_free,3,dPy/dx2 = drho/dx2 | d^2Px/dx2^2 = Px + d^2Py/dx2^2 + const | d^2rho/dx1^2 = dPy/dx1 + rho + const,0.8145766041765876,95.38259471442156
+field_free,3,dPy/dx2 = drho/dx2 + const | d^2Px/dx2^2 = Px + d^2Py/dx2^2 + const | d^2rho/dx1^2 = dPy/dx1 + rho + const,0.8144556980552716,103.07873596519654
+field_free,3,d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2Py/dx2^2 = d^2Px/dx1^2 + d^2Py/dx1^2 | d^2rho/dx1^2 = d^2rho/dx2^2,0.8360151123611574,13.028544034790755
+field_free,3,d^2Px/dx2^2 = Px + dPx/dx1 + d^2Px/dx1^2 | d^2Py/dx2^2 = d^2Px/dx1^2 + d^2Py/dx1^2 | d^2rho/dx1^2 = d^2rho/dx2^2 + const,0.8073855855177591,14.922277823315335
+field_free,3,d^2Px/dx1^2 = Px + dPy/dx1 + drho/dx2 | d^2Py/dx2^2 = Py + d^2Py/dx1^2 | d^2rho/dx2^2 = Px + rho + const,0.7658009152901321,72.24994805040193
+field_free,3,dPy/dx2 = Py + d^2Py/dx2^2 | d^2Px/dx2^2 = d^2Px/dx1^2 | d^2rho/dx1^2 = dPx/dx1 + const,0.8941343459112295,38.5568213009742
+field_free,3,dPy/dx2 = Py + d^2Py/dx2^2 | d^2Px/dx2^2 = d^2Px/dx1^2 + const | d^2rho/dx1^2 = dPx/dx1 + const,0.8938956284694927,4933.168377997316
+field_free,3,dPy/dx2 = Py + const | d^2Px/dx1^2 = d^2Px/dx2^2 | d^2rho/dx1^2 = rho,0.8747370670784812,15.10421727330477
+field_free,3,dPy/dx2 = Py + const | d^2Px/dx1^2 = d^2Px/dx2^2 + const | d^2rho/dx1^2 = rho,0.8743649993596364,31.37368119526796
+field_free,3,dPy/dx2 = Py + const | d^2Px/dx1^2 = d^2Px/dx2^2 | d^2rho/dx1^2 = rho + const,0.8500361482368902,100.59864735585454
+field_free,3,dPy/dx2 = Py + const | d^2Px/dx1^2 = d^2Px/dx2^2 + const | d^2rho/dx1^2 = rho + const,0.8496640805180457,116.86811127781773
+field_free,3,d^2Px/dx1^2 = Px + dPx/dx2 | d^2Py/dx2^2 = Py + dPx/dx2 | d^2rho/dx2^2 = d^2Px/dx2^2 + rho,0.8007784471893672,535.9782235024035
+field_free,3,d^2Px/dx1^2 = Px + dPx/dx2 | d^2Py/dx2^2 = Py + dPx/dx2 | d^2rho/dx2^2 = d^2Px/dx2^2 + rho + const,0.7633786880898246,536.688689628127
+field_free,3,d^2Px/dx1^2 = Px + dPx/dx2 | d^2Py/dx2^2 = Py + dPx/dx2 + const | d^2rho/dx2^2 = d^2Px/dx2^2 + rho + const,0.7697699885789729,39.035582057155175
+field_free,3,d^2Px/dx1^2 = Px + Py + d^2Px/dx2^2 | d^2Py/dx1^2 = d^2Py/dx2^2 | d^2rho/dx2^2 = d^2rho/dx1^2 + rho,0.8295871165650922,59.11155313816786
+field_free,3,d^2Px/dx1^2 = Px + Py + d^2Px/dx2^2 | d^2Py/dx1^2 = d^2Py/dx2^2 | d^2rho/dx2^2 = d^2rho/dx1^2 + rho + const,0.805493208545302,59.35332455364287
+field_free,4,dPx/dx2 = drho/dx0 + drho/dx2 | dPy/dx2 = dPy/dx0 + dPy/dx1 | d^2rho/dx1^2 = d^2rho/dx2^2,0.916562855372122,19.44982536962075
+field_free,4,dPx/dx2 = drho/dx0 + drho/dx2 | dPy/dx2 = dPy/dx0 + dPy/dx1 | d^2rho/dx1^2 = d^2rho/dx2^2 + const,0.8879333285287236,21.343559158145325
+field_free,4,dPx/dx2 = Py + d^2Py/dx1^2 | dPy/dx2 = d^2Px/dx1^2 + drho/dx0 + drho/dx2 | d^2rho/dx1^2 = drho/dx2 + const,0.9015105242827389,27.17292365673329
+field_free,4,dPx/dx2 = Py + d^2Py/dx1^2 + const | dPy/dx2 = d^2Px/dx1^2 + drho/dx0 + drho/dx2 | d^2rho/dx1^2 = drho/dx2 + const,0.9008072725066697,30.618483941830593
+field_free,4,dPy/dx2 = dPy/dx0 + dPy/dx1 | d^2Px/dx1^2 = dPy/dx1 + d^2Px/dx2^2 + drho/dx0 | d^2rho/dx1^2 = d^2rho/dx2^2,0.8953940663408417,30.15939378794505
+field_free,4,dPy/dx2 = dPy/dx0 + dPy/dx1 | d^2Px/dx1^2 = dPy/dx1 + d^2Px/dx2^2 + drho/dx0 | d^2rho/dx1^2 = d^2rho/dx2^2 + const,0.8667645394974434,32.05312757646963
+field_free,4,dPy/dx2 = Px + drho/dx0 | d^2Px/dx1^2 = d^2Px/dx2^2 + drho/dx0 | d^2rho/dx1^2 = drho/dx1 + const,0.8742422437385113,8.059023421018297
+field_free,4,dPy/dx2 = Px + drho/dx0 | d^2Px/dx1^2 = d^2Px/dx2^2 + drho/dx0 + const | d^2rho/dx1^2 = drho/dx1 + const,0.8737146962198405,310.15787261954966
+field_free,4,d^2Px/dx2^2 = Py | d^2Py/dx2^2 = dPy/dx2 + drho/dx2 + const | d^2rho/dx1^2 = dPy/dx2 + drho/dx1 + const,0.8989911445057507,88.74306431093294
+field_free,4,dPy/dx2 = Px + drho/dx0 | d^2Px/dx1^2 = d^2Px/dx2^2 + drho/dx0 | drho/dx1 = rho,0.918165331398015,6.823441587024007
+field_free,4,dPy/dx2 = Px + drho/dx0 | d^2Px/dx1^2 = d^2Px/dx2^2 + drho/dx0 + const | drho/dx1 = rho,0.9176377838793445,308.9222907855554
+field_free,4,dPy/dx2 = d^2Px/dx2^2 + drho/dx0 + drho/dx2 | d^2Px/dx1^2 = d^2Px/dx2^2 + drho/dx0 | d^2rho/dx2^2 = d^2rho/dx1^2,0.8881152858198901,19.713850473333835
+field_free,4,dPy/dx2 = d^2Px/dx2^2 + drho/dx0 + drho/dx2 | d^2Px/dx1^2 = d^2Px/dx2^2 + drho/dx0 + const | d^2rho/dx2^2 = d^2rho/dx1^2,0.8875877383012195,321.81269967186523
+field_free,4,dPy/dx2 = d^2Px/dx2^2 + drho/dx0 + drho/dx2 | d^2Px/dx1^2 = d^2Px/dx2^2 + drho/dx0 | d^2rho/dx2^2 = d^2rho/dx1^2 + const,0.8763595111278075,25.456535452546223
+field_free,4,dPy/dx2 = d^2Px/dx2^2 + drho/dx0 + drho/dx2 | d^2Px/dx1^2 = d^2Px/dx2^2 + drho/dx0 + const | d^2rho/dx2^2 = d^2rho/dx1^2 + const,0.8758319636091368,327.5553846510776
+field_free,4,dPx/dx1 = d^2Py/dx1^2 + const | dPy/dx2 = d^2Px/dx2^2 + drho/dx0 + drho/dx2 | d^2rho/dx2^2 = d^2rho/dx1^2,0.908075464088902,18.540190341314354
+field_free,4,dPy/dx2 = Px + d^2Py/dx1^2 + drho/dx0 | d^2Px/dx2^2 = d^2Px/dx1^2 | d^2rho/dx2^2 = drho/dx0 + drho/dx1 + rho,0.889314697323106,34284.78927201435
+field_free,4,dPx/dx1 = dPy/dx2 + const | dPy/dx1 = dPx/dx2 + drho/dx0 + drho/dx2 | drho/dx1 = rho,0.9387840503423414,27.474569877107296
+field_free,4,dPx/dx1 = dPy/dx2 + const | dPy/dx1 = dPx/dx2 + drho/dx0 + drho/dx2 | drho/dx1 = rho + const,0.9080756554966275,30.540769283499714
+field_free,4,dPx/dx2 = d^2rho/dx2^2 + drho/dx0 + const | dPy/dx2 = dPy/dx0 + drho/dx0 | d^2rho/dx1^2 = rho,0.8900366181274294,154.05883043387232
+field_free,4,dPx/dx2 = d^2rho/dx2^2 + drho/dx0 + const | dPy/dx2 = dPy/dx0 + drho/dx0 + const | d^2rho/dx1^2 = rho,0.8898254055292639,173.15602352576067
+field_free,4,dPx/dx2 = d^2rho/dx2^2 + drho/dx0 + const | dPy/dx2 = dPy/dx0 + drho/dx0 | d^2rho/dx1^2 = rho + const,0.8653356992858384,239.55326051642206
+field_free,4,dPx/dx2 = d^2rho/dx2^2 + drho/dx0 + const | dPy/dx2 = dPy/dx0 + drho/dx0 + const | d^2rho/dx1^2 = rho + const,0.8651244866876729,258.65045360831044
+field_free,4,dPx/dx2 = Py + d^2Py/dx1^2 + d^2rho/dx1^2 | dPy/dx2 = Px + drho/dx0 | d^2rho/dx2^2 = d^2rho/dx1^2,0.9079775354786891,19.195162869058805
+field_free,4,dPy/dx1 = d^2rho/dx2^2 + drho/dx0 + const | d^2Px/dx1^2 = dPy/dx2 + d^2rho/dx2^2 + drho/dx0 | d^2rho/dx1^2 = d^2Py/dx1^2 + const,0.9050576997895831,154.80545556294234
+field_rho,0,drho/dx0 = rho,0.9997897681087015,2.773354913445455
+field_rho,0,drho/dx0 = div_P + rho_x,0.9581690185265369,40.300862359951594
+field_rho,0,drho/dx0 = div_P + rho_x + const,0.9563667075058621,588.284376488462
+field_rho,0,drho/dx0 = div_P,0.9622650889773774,3.671542686526308
+field_rho,1,drho/dx0 = div_P,0.9622650889773774,3.671542686526308
+field_rho,1,drho/dx0 = div_P + rho_x,0.958169018526537,40.300862359951786
+field_rho,1,drho/dx0 = div_P + rho_x + const,0.9563667075058622,588.2843774575286
+field_rho,1,drho/dx0 = rho,0.9997897681087015,2.773354913445455
+field_rho,2,drho/dx0 = div_P,0.9622650889773774,3.671542686526308
+field_rho,2,drho/dx0 = rho,0.9997897681087015,2.773354913445455
+field_rho,2,drho/dx0 = div_P + rho_x,0.9581690185265369,40.300862359951594
+field_rho,2,drho/dx0 = div_P + rho_x + const,0.9563667075058621,588.284376488462
+field_rho,3,drho/dx0 = div_P + rho_x + const,0.9563667075058622,588.2843774575286
+field_rho,3,drho/dx0 = div_P + rho_x,0.958169018526537,40.300862359951786
+field_rho,3,drho/dx0 = div_P,0.9622650889773774,3.671542686526308
+field_rho,3,drho/dx0 = rho,0.9997897681087015,2.773354913445455
+field_rho,4,drho/dx0 = div_P,0.9622650889773774,3.671542686526308
+field_rho,4,drho/dx0 = div_P + rho_x,0.958169018526537,40.300862359951786
+field_rho,4,drho/dx0 = div_P + rho_x + const,0.9563667075058622,588.2843774575286
+field_rho,4,drho/dx0 = rho,0.9997897681087015,2.773354913445455
+field_rho_lag5,0,drho/dx0 = rho,0.9923917097684632,3.68634154589061
+field_rho_lag5,0,drho/dx0 = div_P + lap_rho + rho,0.9471268816492459,88.72353547242948
+field_rho_lag5,0,drho/dx0 = div_P + rho,0.9474345744754863,13.174158986163542
+field_rho_lag5,0,drho/dx0 = div_P + rho + const,0.9362590621267781,806.6260113284382
+field_rho_lag5,1,drho/dx0 = div_P + rho,0.9474345744754863,13.174158986163667
+field_rho_lag5,1,drho/dx0 = div_P + rho + const,0.9362590621267785,806.8325730444247
+field_rho_lag5,1,drho/dx0 = rho,0.9923917097684632,3.68634154589061
+field_rho_lag5,1,drho/dx0 = div_P + lap_rho + rho,0.9471268816492459,88.72353547242948
+field_rho_lag5,2,drho/dx0 = div_P + lap_rho + rho,0.9471268816492461,88.7234275126352
+field_rho_lag5,2,drho/dx0 = div_P + rho,0.9474345744754863,13.174158986163542
+field_rho_lag5,2,drho/dx0 = div_P + rho + const,0.9362590621267781,806.6260113284382
+field_rho_lag5,2,drho/dx0 = rho,0.9923917097684632,3.68634154589061
+field_rho_lag5,3,drho/dx0 = rho,0.9923917097684632,3.68634154589061
+field_rho_lag5,3,drho/dx0 = div_P + lap_rho + rho,0.9471268816492459,88.72352111055027
+field_rho_lag5,3,drho/dx0 = div_P + rho,0.9474345744754863,13.174158986163667
+field_rho_lag5,3,drho/dx0 = div_P + rho + const,0.9362590621267785,806.8325730444247
+field_rho_lag5,4,drho/dx0 = div_P + rho + const,0.9362590621267781,806.6260113284382
+field_rho_lag5,4,drho/dx0 = div_P + rho,0.9474345744754863,13.174158986163542
+field_rho_lag5,4,drho/dx0 = div_P + lap_rho + rho,0.9471268816492459,88.72354214017483
+field_rho_lag5,4,drho/dx0 = rho,0.9923917097684632,3.68634154589061
+field_Px,0,dPx/dx0 = Px_x + Wy,0.26248770192259957,35.69024705475168
+field_Px,0,dPx/dx0 = Wy,0.263234527931149,0.011114205721598243
+field_Px,1,dPx/dx0 = Wy,0.263234527931149,0.011114205721598243
+field_Px,1,dPx/dx0 = Px_x + Wy,0.26248770192259957,35.69024705475168
+field_Px,2,dPx/dx0 = Wy,0.263234527931149,0.011114205721598243
+field_Px,2,dPx/dx0 = Px_x + Wy,0.26248770192259957,35.69024705475168
+field_Px,3,dPx/dx0 = Wy,0.263234527931149,0.011114205721598243
+field_Px,3,dPx/dx0 = Px_x + Wy,0.26248770192259957,35.69024705475168
+field_Px,4,dPx/dx0 = Wy,0.263234527931149,0.011114205721598243
+field_Px,4,dPx/dx0 = Px_x + Wy,0.26248770192259957,35.69024705475168
+field_Py,0,dPy/dx0 = Wx + rho,0.26364963892216886,2.0752321575153463
+field_Py,0,dPy/dx0 = Wx,0.2660495581252787,0.010089372317658002
+field_Py,0,dPy/dx0 = Wx + lap_Py + rho,0.2628770991974397,583.1395137922144
+field_Py,1,dPy/dx0 = Wx + rho,0.26364963892216886,2.0752321575153463
+field_Py,1,dPy/dx0 = Wx,0.2660495581252787,0.010089372317658002
+field_Py,1,dPy/dx0 = Wx + lap_Py + rho,0.2628770991974397,583.1373023664117
+field_Py,2,dPy/dx0 = Wx,0.2660495581252787,0.010089372317658002
+field_Py,2,dPy/dx0 = Wx + lap_Py + rho,0.2628770991974397,583.1374289310316
+field_Py,2,dPy/dx0 = Wx + rho,0.26364963892216886,2.075232157515317
+field_Py,3,dPy/dx0 = Wx + rho,0.26364963892216886,2.0752321575153463
+field_Py,3,dPy/dx0 = Wx,0.2660495581252787,0.010089372317658002
+field_Py,3,dPy/dx0 = Wx + lap_Py + rho,0.2628770991974397,583.1399971901035
+field_Py,4,dPy/dx0 = Wx,0.2660495581252787,0.010089372317658002
+field_Py,4,dPy/dx0 = Wx + rho,0.26364963892216886,2.0752321575153463
+polar_rho,0,drho/dx0 = Pr + div_P,0.9091681442323963,29.32697928126768
+polar_rho,0,drho/dx0 = div_P + lap_rho + const,0.8959646961612289,882.1318204152088
+polar_rho,0,drho/dx0 = div_P + lap_rho + rho,0.8917825399927349,8816.156669764343
+polar_rho,0,drho/dx0 = lap_rho + rho,0.9903436062174151,21.800394602709506
+polar_rho,0,drho/dx0 = rho,0.9994544184727115,3.874212302152691
+polar_rho,1,drho/dx0 = lap_rho + rho,0.9903436062174151,21.800394602709506
+polar_rho,1,drho/dx0 = Pr + div_P,0.9091681442323963,29.32697928126754
+polar_rho,1,drho/dx0 = div_P + lap_rho + rho,0.8917825399927349,8816.151536468658
+polar_rho,1,drho/dx0 = rho,0.9994544184727115,3.874212302152691
+polar_rho,1,drho/dx0 = div_P + lap_rho + const,0.8959646961612292,882.1212598472739
+polar_rho,2,drho/dx0 = rho,0.9994544184727115,3.874212302152691
+polar_rho,2,drho/dx0 = lap_rho + rho,0.9903436062174151,21.800394602706035
+polar_rho,2,drho/dx0 = div_P + lap_rho + const,0.8959646961612289,882.1318204152088
+polar_rho,2,drho/dx0 = div_P + lap_rho + rho,0.8917825399927352,8816.150638617151
+polar_rho,2,drho/dx0 = Pr + div_P,0.9091681442323963,29.32697928126768
+polar_rho,3,drho/dx0 = div_P + lap_rho + rho,0.8917825399927352,8816.1523582706
+polar_rho,3,drho/dx0 = lap_rho + rho,0.9903436062174151,21.800394602709506
+polar_rho,3,drho/dx0 = rho,0.9994544184727115,3.874212302152691
+polar_rho,3,drho/dx0 = Pr + div_P,0.9091681442323963,29.32697928126754
+polar_rho,3,drho/dx0 = div_P + lap_rho + const,0.8959646961612289,882.1318204152088
+polar_rho,4,drho/dx0 = rho,0.9994544184727115,3.874212302152691
+polar_rho,4,drho/dx0 = div_P + lap_rho + const,0.8959646961612289,882.1318204152088
+polar_rho,4,drho/dx0 = div_P + lap_rho + rho,0.8917825399927352,8816.154249447824
+polar_rho,4,drho/dx0 = lap_rho + rho,0.9903436062174151,21.800394602709506
+polar_rho,4,drho/dx0 = Pr + div_P,0.9091681442323963,29.32697928126754
+polar_Pr,0,dPr/dx0 = Pr + Pt + Wt,0.23531751365612272,2415.510380602178
+polar_Pr,0,dPr/dx0 = Pr + Wt,0.23730779472480323,5.794941455392104
+polar_Pr,0,dPr/dx0 = Wt,0.2412917322093726,0.11047492853821442
+polar_Pr,1,dPr/dx0 = Wt,0.2412917322093726,0.11047492853821442
+polar_Pr,1,dPr/dx0 = Pr + Pt + Wt,0.23531751365612186,2415.510137960012
+polar_Pr,1,dPr/dx0 = Pr + Wt,0.23730779472480323,5.794941455392104
+polar_Pr,2,dPr/dx0 = Wt,0.2412917322093726,0.11047492853821442
+polar_Pr,2,dPr/dx0 = Pr + Wt,0.23730779472480315,5.794941455390939
+polar_Pr,2,dPr/dx0 = Pr + Pt + Wt,0.2353175136561221,2415.510119937858
+polar_Pr,3,dPr/dx0 = Wt,0.2412917322093726,0.11047492853821442
+polar_Pr,3,dPr/dx0 = Pr + Wt,0.23730779472480315,5.794941455390939
+polar_Pr,3,dPr/dx0 = Pr + Pt + Wt,0.2353175136561223,2415.5096189939004
+polar_Pr,4,dPr/dx0 = Wt,0.2412917322093726,0.11047492853821442
+polar_Pr,4,dPr/dx0 = Pr + Pt + Wt,0.23531751365612272,2415.510380602178
+polar_Pr,4,dPr/dx0 = Pr + Wt,0.23730779472480315,5.794941455390939

@@ -1,0 +1,84 @@
+{
+  "config_name": "drift_products",
+  "seed": 0,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ],
+    "factors": 2
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "1.2357389934507683 * sin_phi{power: 1.0} + -0.08186594621580731 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9326363817117438,
+        29.91261200098509
+      ]
+    },
+    {
+      "equation": "1.2710065623078204 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9378441565130359,
+        1.6338365154219225
+      ]
+    },
+    {
+      "equation": "1.1219852350615858 * sin_phi{power: 1.0} + 0.5994957098933804 * push_x{power: 1.0} + 0.040013776577003744 * u{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8812707524979577,
+        522.7687093802525
+      ]
+    },
+    {
+      "equation": "-0.29526773746496054 * u{power: 1.0} * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9797128014408512,
+        1.5503683094473757
+      ]
+    },
+    {
+      "equation": "0.18225923599257995 * sin_phi{power: 1.0} * u{power: 1.0} + 1.6165678401774897 * sin_phi{power: 1.0} + 0.5594412011364045 * push_x{power: 1.0} + -0.14190358927269342 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8576524285045815,
+        1989.5045351792246
+      ]
+    },
+    {
+      "equation": "0.7062352481522964 * push_x{power: 1.0} + -0.25883497901692337 * u{power: 1.0} * sin_phi{power: 1.0} + -0.2839989265662469 * cos_phi{power: 1.0} + -0.08246769447740851 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9270035906262477,
+        519.3761036409576
+      ]
+    },
+    {
+      "equation": "0.568427711278342 * push_x{power: 1.0} + 1.064545376207576 * sin_phi{power: 1.0} + 0.020585307062309658 * cos_phi{power: 1.0} * sin_phi{power: 1.0} + -0.11466430022939483 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8614862431418963,
+        1468.5415416285803
+      ]
+    },
+    {
+      "equation": "1.3404008345616454 * sin_phi{power: 1.0} + 0.12750347894869699 * u{power: 1.0} * sin_phi{power: 1.0} + 0.04549749801497668 * u{power: 1.0} + 0.6184288428124971 * push_x{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8475534830911646,
+        4756.9055519510775
+      ]
+    },
+    {
+      "equation": "1.20809017321824 * sin_phi{power: 1.0} + -0.1609756596391432 * cos_phi{power: 1.0} * sin_phi{power: 1.0} + -0.10720124066667212 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.931723971203126,
+        438.92260676679183
+      ]
+    }
+  ]
+}

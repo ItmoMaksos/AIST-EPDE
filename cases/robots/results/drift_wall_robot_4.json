@@ -1,0 +1,41 @@
+{
+  "config_name": "drift_wall_robot",
+  "seed": 4,
+  "config": {
+    "kind": "drift",
+    "robot": 38,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ]
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "-0.7670360619683939 * sin_phi{power: 1.0} + 0.6021533830069962 * cos_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8802628960984537,
+        637.330295101033
+      ]
+    },
+    {
+      "equation": "-0.7875289293631115 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9404685699510051,
+        270.38376233319974
+      ]
+    },
+    {
+      "equation": "-0.842509187598456 * sin_phi{power: 1.0} + -0.16438737481039256 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9603592530614807,
+        51.40288080288397
+      ]
+    }
+  ]
+}

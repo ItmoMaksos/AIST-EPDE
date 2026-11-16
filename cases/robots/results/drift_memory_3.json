@@ -1,0 +1,49 @@
+{
+  "config_name": "drift_memory",
+  "seed": 3,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x",
+      "vb_x"
+    ]
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "1.1219852350615864 * sin_phi{power: 1.0} + 0.040013776577003814 * u{power: 1.0} + 0.5994957098933804 * push_x{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8812707524979575,
+        522.7687093803002
+      ]
+    },
+    {
+      "equation": "1.1212855135059103 * sin_phi{power: 1.0} + 0.6206690538266781 * push_x{power: 1.0} + -0.13524470684975276 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8779802872005911,
+        52511.34742105703
+      ]
+    },
+    {
+      "equation": "1.2710065623078204 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9378441565130359,
+        1.6338365154219225
+      ]
+    },
+    {
+      "equation": "1.2357389934507683 * sin_phi{power: 1.0} + -0.08186594621580731 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9326363817117438,
+        29.91261200098509
+      ]
+    }
+  ]
+}

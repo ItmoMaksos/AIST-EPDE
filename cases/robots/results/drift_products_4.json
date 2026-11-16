@@ -1,0 +1,70 @@
+{
+  "config_name": "drift_products",
+  "seed": 4,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ],
+    "factors": 2
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "1.2710065623078204 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9378441565130359,
+        1.6338365154219225
+      ]
+    },
+    {
+      "equation": "1.2357389934507683 * sin_phi{power: 1.0} + -0.08186594621580731 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9326363817117438,
+        29.91261200098509
+      ]
+    },
+    {
+      "equation": "0.5994957098933799 * push_x{power: 1.0} + 1.1219852350615864 * sin_phi{power: 1.0} + 0.04001377657700381 * u{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8812707524979575,
+        522.7687093820508
+      ]
+    },
+    {
+      "equation": "0.5594412011363 * push_x{power: 1.0} + 0.1822592359924294 * u{power: 1.0} * sin_phi{power: 1.0} + 1.6165678401767984 * sin_phi{power: 1.0} + -0.1419035892726995 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8576524285045339,
+        1989.502520651531
+      ]
+    },
+    {
+      "equation": "-0.2588349790169235 * sin_phi{power: 1.0} * u{power: 1.0} + -0.2839989265662457 * cos_phi{power: 1.0} + 0.7062352481522952 * push_x{power: 1.0} + -0.08246769447740857 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9270035906262477,
+        519.379865804598
+      ]
+    },
+    {
+      "equation": "-0.29526773746496054 * u{power: 1.0} * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9797128014408512,
+        1.5503683094473757
+      ]
+    },
+    {
+      "equation": "0.12750347894930336 * sin_phi{power: 1.0} * u{power: 1.0} + 0.04549749801495727 * u{power: 1.0} + 0.6184288428127477 * push_x{power: 1.0} + 1.3404008345636003 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.847553483091241,
+        4752.497973584275
+      ]
+    }
+  ]
+}

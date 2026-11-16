@@ -1,0 +1,42 @@
+{
+  "config_name": "drift_repair",
+  "seed": 1,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ],
+    "mode": "repair"
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "1.0205194941334095 * sin_phi{power: 1.0} + 0.3070737287208178 * push_x{power: 1.0} + -0.1810525023603422 * cos_phi{power: 1.0} + -0.05517997315912664 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8626242374901788,
+        0.31444876185492576
+      ]
+    },
+    {
+      "equation": "0.00572668650110176 * u{power: 1.0} + 0.8585285980806099 * sin_phi{power: 1.0} + -0.12164815636363525 * cos_phi{power: 1.0} + 0.20785215766209603 * push_x{power: 1.0} + -0.04970132121546042 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8542567028210346,
+        0.35574030710979426
+      ]
+    },
+    {
+      "equation": "0.857100420030238 * sin_phi{power: 1.0} + 0.115608815014246 * push_x{power: 1.0} + 0.003415164302049461 * u{power: 1.0} + -0.042823573820303246 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8628871874702739,
+        0.2561902833277751
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "config_name": "radial",
+  "seed": 0,
+  "config": {
+    "kind": "radial",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_rel",
+      "sin_rel",
+      "push_r",
+      "wall_r"
+    ]
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "1.2694697868709424 * sin_rel{power: 1.0} + 0.1338571414822767 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8419335835707318,
+        70.15145465427037
+      ]
+    },
+    {
+      "equation": "1.3785074092002092 * sin_rel{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8580673289574703,
+        9.142661548929484
+      ]
+    },
+    {
+      "equation": "0.7375580329978498 * push_r{power: 1.0} + -0.19076474656826956 * cos_rel{power: 1.0} + 1.144055394145792 * sin_rel{power: 1.0} + 0.42322017639018167 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8156487882385766,
+        2140.1092250443453
+      ]
+    }
+  ]
+}

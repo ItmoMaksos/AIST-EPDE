@@ -1,0 +1,70 @@
+{
+  "config_name": "drift_products",
+  "seed": 2,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ],
+    "factors": 2
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "-0.29526773746496054 * u{power: 1.0} * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9797128014408512,
+        1.5503683094473757
+      ]
+    },
+    {
+      "equation": "1.6165678401750345 * sin_phi{power: 1.0} + 0.5594412011362736 * push_x{power: 1.0} + 0.18225923599197552 * sin_phi{power: 1.0} * u{power: 1.0} + -0.1419035892727306 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8576524285044103,
+        1989.5074096427654
+      ]
+    },
+    {
+      "equation": "1.1219852350615858 * sin_phi{power: 1.0} + 0.5994957098933804 * push_x{power: 1.0} + 0.040013776577003744 * u{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8812707524979577,
+        522.7687093802525
+      ]
+    },
+    {
+      "equation": "1.2710065623078204 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9378441565130359,
+        1.6338365154219225
+      ]
+    },
+    {
+      "equation": "1.2357389934507683 * sin_phi{power: 1.0} + -0.08186594621580731 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9326363817117438,
+        29.91261200098509
+      ]
+    },
+    {
+      "equation": "0.12750347894931202 * u{power: 1.0} * sin_phi{power: 1.0} + 1.340400834563776 * sin_phi{power: 1.0} + 0.0454974980149565 * u{power: 1.0} + 0.6184288428126792 * push_x{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8475534830912499,
+        4755.177365138523
+      ]
+    },
+    {
+      "equation": "0.7062352481522964 * push_x{power: 1.0} + -0.25883497901692337 * sin_phi{power: 1.0} * u{power: 1.0} + -0.2839989265662469 * cos_phi{power: 1.0} + -0.08246769447740851 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9270035906262477,
+        519.3761036409576
+      ]
+    }
+  ]
+}

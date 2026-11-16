@@ -1,0 +1,42 @@
+{
+  "config_name": "drift_lag5",
+  "seed": 4,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ],
+    "lag": 5
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "1.2006189610018316 * sin_phi{power: 1.0} + -0.13205014412027924 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9789458322510204,
+        59.37145865581709
+      ]
+    },
+    {
+      "equation": "1.240653517793189 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9810879106867867,
+        12.818411088481907
+      ]
+    },
+    {
+      "equation": "1.1944221088363582 * sin_phi{power: 1.0} + -0.5705723144512066 * cos_phi{power: 1.0} + -0.13078455948351736 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.978856485288224,
+        7129.641534847462
+      ]
+    }
+  ]
+}

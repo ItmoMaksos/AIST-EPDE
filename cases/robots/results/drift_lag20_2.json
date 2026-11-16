@@ -1,0 +1,49 @@
+{
+  "config_name": "drift_lag20",
+  "seed": 2,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ],
+    "lag": 20
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "0.5086843201611084 * cos_phi{power: 1.0} + 0.3594010748926151 * push_x{power: 1.0} + 0.5028035695618296 * sin_phi{power: 1.0} + -0.12853240424269963 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8427169811050749,
+        4689.07911909618
+      ]
+    },
+    {
+      "equation": "0.36085450527752977 * push_x{power: 1.0} + 0.4972439572788121 * cos_phi{power: 1.0} + 0.5025016806966376 * sin_phi{power: 1.0} + 0.03261543148143287 * u{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8474696325826236,
+        294.14033639082925
+      ]
+    },
+    {
+      "equation": "0.5965662045728266 * cos_phi{power: 1.0} + 0.5983550875782311 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9033759530064102,
+        61.14239360526142
+      ]
+    },
+    {
+      "equation": "0.5784025676429215 * cos_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9214531803561344,
+        14.731716455812972
+      ]
+    }
+  ]
+}

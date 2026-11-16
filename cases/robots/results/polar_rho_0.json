@@ -1,0 +1,50 @@
+{
+  "config_name": "polar_rho",
+  "seed": 0,
+  "config": {
+    "kind": "polar_field",
+    "var": "rho",
+    "population": 6,
+    "epochs": 3,
+    "terms": 4,
+    "lag": 5
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "-1.1757433945085884 * div_P{power: 1.0} + -0.05998922964139495 * Pr{power: 1.0} = drho/dx0{power: 1.0}",
+      "objectives": [
+        0.9091681442323963,
+        29.32697928126768
+      ]
+    },
+    {
+      "equation": "-1.2827736731416408 * div_P{power: 1.0} + 2.6027150731533997 * lap_rho{power: 1.0} + 0.011830905766534384 = drho/dx0{power: 1.0}",
+      "objectives": [
+        0.8959646961612289,
+        882.1318204152088
+      ]
+    },
+    {
+      "equation": "-1.0169221883142003 * div_P{power: 1.0} + 0.018058969235690676 * rho{power: 1.0} + 2.012197163770869 * lap_rho{power: 1.0} = drho/dx0{power: 1.0}",
+      "objectives": [
+        0.8917825399927349,
+        8816.156669764343
+      ]
+    },
+    {
+      "equation": "0.02413417830141177 * rho{power: 1.0} + 3.947563070602398 * lap_rho{power: 1.0} = drho/dx0{power: 1.0}",
+      "objectives": [
+        0.9903436062174151,
+        21.800394602709506
+      ]
+    },
+    {
+      "equation": "0.000690764476215404 * rho{power: 1.0} = drho/dx0{power: 1.0}",
+      "objectives": [
+        0.9994544184727115,
+        3.874212302152691
+      ]
+    }
+  ]
+}

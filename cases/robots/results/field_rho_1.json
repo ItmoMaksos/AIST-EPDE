@@ -1,0 +1,43 @@
+{
+  "config_name": "field_rho",
+  "seed": 1,
+  "config": {
+    "kind": "field",
+    "var": "rho",
+    "population": 6,
+    "epochs": 3,
+    "terms": 4,
+    "lag": 1
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "-0.6656693453240373 * div_P{power: 1.0} = drho/dx0{power: 1.0}",
+      "objectives": [
+        0.9622650889773774,
+        3.671542686526308
+      ]
+    },
+    {
+      "equation": "-0.7358240581538315 * div_P{power: 1.0} + 0.41847225952094996 * rho_x{power: 1.0} = drho/dx0{power: 1.0}",
+      "objectives": [
+        0.958169018526537,
+        40.300862359951786
+      ]
+    },
+    {
+      "equation": "-0.67940615870464 * div_P{power: 1.0} + 0.49169667919786575 * rho_x{power: 1.0} + 0.002167619415622803 = drho/dx0{power: 1.0}",
+      "objectives": [
+        0.9563667075058622,
+        588.2843774575286
+      ]
+    },
+    {
+      "equation": "-0.0017696838961490137 * rho{power: 1.0} = drho/dx0{power: 1.0}",
+      "objectives": [
+        0.9997897681087015,
+        2.773354913445455
+      ]
+    }
+  ]
+}

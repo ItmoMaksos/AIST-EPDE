@@ -1,0 +1,56 @@
+{
+  "config_name": "drift_chi2",
+  "seed": 0,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ],
+    "instability": "chi2"
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "1.2710065623078204 * sin_phi{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9378441565130359,
+        1.4904272723149294
+      ]
+    },
+    {
+      "equation": "0.6688746464535752 * push_x{power: 1.0} + -0.26951433999025687 * cos_phi{power: 1.0} + 1.1568179182999674 * sin_phi{power: 1.0} + -0.09162710284592508 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8965520815742445,
+        3.866838382892532
+      ]
+    },
+    {
+      "equation": "0.5994957098933799 * push_x{power: 1.0} + 1.1219852350615864 * sin_phi{power: 1.0} + 0.04001377657700381 * u{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8812707524979575,
+        6.953537454564729
+      ]
+    },
+    {
+      "equation": "0.6206690538266786 * push_x{power: 1.0} + 1.1212855135059099 * sin_phi{power: 1.0} + -0.1352447068497527 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8779802872005911,
+        505.15404479381664
+      ]
+    },
+    {
+      "equation": "1.1630454311212752 * sin_phi{power: 1.0} + -0.2712474732573346 * cos_phi{power: 1.0} + 0.03813522159551616 * u{power: 1.0} + 0.6646181061481234 * push_x{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8975626775669727,
+        1.7555321044094159
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "config_name": "field_Py",
+  "seed": 4,
+  "config": {
+    "kind": "field",
+    "var": "Py",
+    "population": 6,
+    "epochs": 3,
+    "terms": 4,
+    "lag": 1
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "0.959311842437193 * Wx{power: 1.0} = dPy/dx0{power: 1.0}",
+      "objectives": [
+        0.2660495581252787,
+        0.010089372317658002
+      ]
+    },
+    {
+      "equation": "0.9566256574573373 * Wx{power: 1.0} + -0.015605757570510985 * rho{power: 1.0} = dPy/dx0{power: 1.0}",
+      "objectives": [
+        0.26364963892216886,
+        2.0752321575153463
+      ]
+    }
+  ]
+}
