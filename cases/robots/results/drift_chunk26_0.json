@@ -1,0 +1,42 @@
+{
+  "config_name": "drift_chunk26",
+  "seed": 0,
+  "config": {
+    "kind": "drift",
+    "robot": 72,
+    "population": 10,
+    "epochs": 15,
+    "terms": 7,
+    "tokens": [
+      "cos_phi",
+      "sin_phi",
+      "push_x",
+      "wall_x"
+    ],
+    "chunk": 2.6
+  },
+  "epde_commit": "48e3789aedb9a316b9a5cee78e0c8f96e9f196ba",
+  "front": [
+    {
+      "equation": "0.790932356712123 * push_x{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.9501805419782167,
+        11.90424027029817
+      ]
+    },
+    {
+      "equation": "0.7357716801291538 * push_x{power: 1.0} + -0.2631085006414746 * cos_phi{power: 1.0} + 1.1454189374529007 * sin_phi{power: 1.0} + -0.13218215468167369 = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8405974263637486,
+        87.77875981985954
+      ]
+    },
+    {
+      "equation": "1.1528823767307936 * sin_phi{power: 1.0} + 0.6083793523102835 * push_x{power: 1.0} = du/dx0{power: 1.0}",
+      "objectives": [
+        0.8471620966252336,
+        13.683420402891874
+      ]
+    }
+  ]
+}
